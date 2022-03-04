@@ -1,0 +1,63 @@
+.introducao-bg {
+  /*   
+  background: var(--cor-12) url("./../../../public/img/dec/bottom-left.svg") no-repeat
+    bottom 160px left 20px;
+  box-shadow: inset 0 -120px var(--cor-0); */
+  background-image: url("./../../../public/img/bg_2.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10%;
+}
+
+.introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.introducao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+  background: black;
+  padding: 5px 10px;
+  margin-right: -20px;
+  margin-top: 10px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    padding-top: 40px;
+    box-shadow: inset 0 -60px #ffffff;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+  .introducao h1 {
+    margin-bottom: 16px;
+  }
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
+}
