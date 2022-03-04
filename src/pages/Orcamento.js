@@ -84,49 +84,49 @@ function Orcamento() {
                             </div>
                         </div>
                         <div className="orcamento-dados form">
-                            <h2 className="font-1-xs cor-9 col-2">dados pessoais</h2>
-                            <div>
-                                <label for="nome">Nome</label>
-                                <input type="text" id="nome" name="nome"/>
-                            </div>
-                            <div>
-                                <label for="sobrenome">Sobrenome</label>
-                                <input type="text" id="sobrenome" name="sobrenome"/>
-                            </div>
-                            <div className="col-2">
-                                <label for="cpf">CPF</label>
-                                <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00"/>
-                            </div>
-                            <div className="col-2">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email"/>
-                            </div>
-                            <h2 className="font-1-xs cor-9 col-2">entrega</h2>
-                            <div>
-                                <label for="cep">CEP</label>
-                                <input type="text" id="cep" name="cep"/>
-                            </div>
-                            <div>
-                                <label for="numero">Número</label>
-                                <input type="text" id="numero" name="numero"/>
-                            </div>
-                            <div>
-                                <label for="logradouro">Logradouro</label>
-                                <input type="text" id="logradouro" name="logradouro"/>
-                            </div>
-                            <div>
-                                <label for="bairro">Bairro</label>
-                                <input type="text" id="bairro" name="bairro"/>
-                            </div>
-                            <div>
-                                <label for="cidade">Cidade</label>
-                                <input type="text" id="cidade" name="cidade"/>
-                            </div>
-                            <div>
-                                <label for="estado">Estado</label>
-                                <input type="text" id="estado" name="estado"/>
-                            </div>
-                            <button className="botao col-2">Solicitar Orçamento</button>
+                            <h2 className="font-1-xs cor-9 col-2">Informações da reserva</h2>
+                            {/*<div>*/}
+                            {/*    <label for="nome">Nome</label>*/}
+                            {/*    <input type="text" id="nome" name="nome"/>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <label for="sobrenome">Sobrenome</label>*/}
+                            {/*    <input type="text" id="sobrenome" name="sobrenome"/>*/}
+                            {/*</div>*/}
+                            {/*<div className="col-2">*/}
+                            {/*    <label for="cpf">CPF</label>*/}
+                            {/*    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00"/>*/}
+                            {/*</div>*/}
+                            {/*<div className="col-2">*/}
+                            {/*    <label for="email">Email</label>*/}
+                            {/*    <input type="email" id="email" name="email"/>*/}
+                            {/*</div>*/}
+                            {/*<h2 className="font-1-xs cor-9 col-2">entrega</h2>*/}
+                            {/*<div>*/}
+                            {/*    <label for="cep">CEP</label>*/}
+                            {/*    <input type="text" id="cep" name="cep"/>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <label for="numero">Número</label>*/}
+                            {/*    <input type="text" id="numero" name="numero"/>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <label for="logradouro">Logradouro</label>*/}
+                            {/*    <input type="text" id="logradouro" name="logradouro"/>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <label for="bairro">Bairro</label>*/}
+                            {/*    <input type="text" id="bairro" name="bairro"/>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <label for="cidade">Cidade</label>*/}
+                            {/*    <input type="text" id="cidade" name="cidade"/>*/}
+                            {/*</div>*/}
+                            {/*<div>*/}
+                            {/*    <label for="estado">Estado</label>*/}
+                            {/*    <input type="text" id="estado" name="estado"/>*/}
+                            {/*</div>*/}
+                            <button className="botao col-2">Finalizar Reserva</button>
                         </div>
                     </form>
                 </main>
