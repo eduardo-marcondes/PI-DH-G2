@@ -13,6 +13,7 @@
 @import "./css/home/introducao.css";
 @import "./css/home/parceiros.css";
 @import "./css/home/vantagens.css";
+@import "css/home/populares.css";
 
 /* carros */
 @import "./css/carros/carros-lista.css";
