@@ -1,0 +1,84 @@
+{
+  "carsList": [
+    {
+      "id": "car_01",
+      "category": "SUVs",
+      "icon": "./img/icones/suv.png",
+      "img": "./img/carros/suv-1.png",
+      "title": "Range Rover",
+      "localization": "Brasil",
+      "description": "Carros maiores ideias para familia toda.",
+      "value": "R$ 299.9"
+    },
+    {
+      "id": "car_02",
+      "category": "SUVs",
+      "icon": "./img/icones/suv.png",
+      "img": "./img/carros/suv-3.png",
+      "title": "Audi A1",
+      "localization": "Brasil",
+      "description": "Carros maiores ideias para familia toda.",
+      "value": "R$ 299.9"
+    },
+    {
+      "id": "car_03",
+      "category": "Conversiveis",
+      "icon": "./img/icones/conversivel.png",
+      "img": "./img/carros/conversivel-1.png",
+      "title": "Mercedes Benz AMG GT S",
+      "localization": "Brasil",
+      "description": "Carros que prezam pelo conforto e luxo.",
+      "value": "R$ 499.9"
+    },
+    {
+      "id": "car_04",
+      "category": "Conversiveis",
+      "icon": "./img/icones/conversivel.png",
+      "img": "./img/carros/conversivel-2.png",
+      "title": "Mercedes Benz",
+      "localization": "Brasil",
+      "description": "Carros que prezam pelo conforto e luxo.",
+      "value": "R$ 499.9"
+    },
+    {
+      "id": "car_05",
+      "category": "Picapes",
+      "icon": "./img/icones/picape.png",
+      "img": "./img/carros/picape-1.png",
+      "title": "Dodge Ram",
+      "localization": "Brasil",
+      "description": "Carros ideais para quem curte aventura.",
+      "value": "R$ 399.9"
+    },
+    {
+      "id": "car_06",
+      "category": "Picapes",
+      "icon": "./img/icones/picape.png",
+      "img": "./img/carros/picape-2.jpg",
+      "title": "Ford Ranger",
+      "localization": "Brasil",
+      "description": "Carros ideais para quem curte aventura.",
+      "value": "R$ 399.9"
+    },
+    {
+      "id": "car_07",
+      "category": "esportivos",
+      "icon": "./img/icones/esportivo.png",
+      "img": "./img/carros/esportivo-1.png",
+      "title": "Mercedes Benz",
+      "localization": "Brasil",
+      "description": "Carros cheios de estilo, que garante maior velocidade.",
+      "value": "R$ 399.9"
+    },
+    {
+      "id": "car_08",
+      "category": "esportivos",
+      "icon": "./img/icones/esportivo.png",
+      "img": "./img/carros/esportivo-2.png",
+      "title": "McLaren 720S",
+      "localization": "Brasil",
+      "description": "Carros cheios de estilo, que garante maior velocidade.",
+      "value": "R$ 399.9"
+    }
+  ]
+}

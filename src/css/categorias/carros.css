@@ -76,7 +76,7 @@
   margin-right: 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .carros-bg {
     background: var(--cor-11);
   }

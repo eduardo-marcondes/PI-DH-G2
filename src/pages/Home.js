@@ -1,6 +1,8 @@
 import {Link} from "react-router-dom";
+import CardsWhite from "./components/cards/CardsWhite";
 
 function Home() {
+
     return (
         <>
             <main className="introducao-bg">
@@ -76,109 +78,7 @@ function Home() {
                 </div>
 
                 <div className="mais-alugados">
-                    <div>
-                        <div className="carros-bg">
-                            <div className="carros container">
-                                <div className="carros-imagem">
-                                    <img src="./img/carros/conversivel-1.png" alt="Modelo Conversivel"/>
-                                    <span className="font-2-m cor-0">R$ 499.9</span>
-                                </div>
-                                <div className="carros-informacoes">
-                                    <div>
-                                        <h2 className="font-1-xl cor-0">Conversiveis</h2>
-                                        <ul className="font-1-m cor-5">
-                                            <li>
-                                                <img src="./img/icones/motor.png" alt=""/>
-                                                Audi
-                                            </li>
-                                            <li>
-                                                <img src="./img/icones/rastreador.svg" alt=""/>
-                                                Brasil
-                                            </li>
-                                        </ul>
-                                        <p className="font-2-s cor-5">Carros que prezam pelo conforto e
-                                            luxo.</p>
-                                    </div>
-                                    <Link className="botao seta" to="/conversiveis">Mais Sobre</Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carros container">
-                            <div className="carros-imagem">
-                                <img src="./img/carros/suv-1.png" alt="Modelo Suvs"/>
-                                <span className="font-2-m cor-0">R$ 299.9</span>
-                            </div>
-                            <div className="carros-informacoes">
-                                <div>
-                                    <h2 className="font-1-xl">SUVs</h2>
-                                    <ul className="font-1-m cor-8">
-                                        <li>
-                                            <img src="./img/icones/motor.png" alt=""/>
-                                            Range rover
-                                        </li>
-                                        <li>
-                                            <img src="./img/icones/rastreador.svg" alt=""/>
-                                            Brasil
-                                        </li>
-                                    </ul>
-                                    <p className="font-2-s cor-8">Carros maiores ideias para familia toda.</p>
-                                </div>
-                                <Link className="botao seta" to="/suvs">Mais Sobre</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="reverse">
-                        <div className="carros container">
-                            <div className="carros-imagem">
-                                <img src="./img/carros/picape-1.png" alt="Modelo Picape"/>
-                                <span className="font-2-m cor-0">R$ 399.9</span>
-                            </div>
-                            <div className="carros-informacoes">
-                                <h2 className="font-1-xl">Picapes</h2>
-                                <div>
-                                    <ul className="font-1-m cor-8">
-                                        <li>
-                                            <img src="./img/icones/motor.png" alt=""/>
-                                            Dodge Ram
-                                        </li>
-                                        <li>
-                                            <img src="./img/icones/rastreador.svg" alt=""/>
-                                            Brasil
-                                        </li>
-                                    </ul>
-                                    <p className="font-2-s cor-8">Carros ideais para quem
-                                        curte aventura.</p>
-                                </div>
-                                <Link className="botao seta" to="/picapes">Mais Sobre</Link>
-                            </div>
-                        </div>
-                        <div className="carros-bg">
-                            <div className="carros container">
-                                <div className="carros-imagem">
-                                    <img src="./img/carros/esportivo-1.jpg" alt="Modelo Esportivo"/>
-                                    <span className="font-2-m cor-0">R$ 399.9</span>
-                                </div>
-                                <div className="carros-informacoes">
-                                    <div>
-                                        <h2 className="font-1-xl cor-0">Esportivos</h2>
-                                        <ul className="font-1-m cor-5">
-                                            <li>
-                                                <img src="./img/icones/motor.png" alt=""/>
-                                                Audi
-                                            </li>
-                                            <li>
-                                                <img src="./img/icones/rastreador.svg" alt=""/>
-                                                Brasil
-                                            </li>
-                                        </ul>
-                                        <p className="font-2-s cor-5">Carros cheios de estilo, que garante maior
-                                            velocidade.</p>
-                                    </div>
-                                    <Link className="botao seta" to="/esportivos">Mais Sobre</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   <CardsWhite/>
                 </div>
             </article>
 
