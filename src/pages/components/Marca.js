@@ -7,13 +7,13 @@ function Marca() {
             <TitleBgWhite {...title}/>
             <ul>
                 <li><img src="./img/parceiros/audi.svg" alt="Audi"/></li>
-                <li><img src="./img/parceiros/audi.png" alt="Audi"/></li>
-                <li><img src="./img/parceiros/bmw.png" alt="BMW"/></li>
-                <li><img src="./img/parceiros/dodge.png" alt="Dodge"/></li>
-                <li><img src="./img/parceiros/ford.png" alt="Ford"/></li>
-                <li><img src="./img/parceiros/gmc.png" alt="GMC"/></li>
-                <li><img src="./img/parceiros/jeep.png" alt="Jeep"/></li>
-                <li><img src="./img/parceiros/porsche.png" alt="Porsche"/></li>
+                <li><img src="./img/parceiros/tesla.svg" alt="Tesla"/></li>
+                <li><img src="./img/parceiros/bmw.svg" alt="BMW"/></li>
+                <li><img src="./img/parceiros/dodge.svg" alt="Dodge"/></li>
+                <li><img src="./img/parceiros/ford.svg" alt="Ford"/></li>
+                <li><img src="./img/parceiros/gmc.svg" alt="GMC"/></li>
+                <li><img src="./img/parceiros/jeep.svg" alt="Jeep"/></li>
+                <li><img src="./img/parceiros/porsche.svg" alt="Porsche"/></li>
             </ul>
         </section>
     )
