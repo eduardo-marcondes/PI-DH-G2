@@ -1,24 +1,74 @@
-.mais-alugados{
+.mais-alugados {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: -1px -1px;
 }
 
-.mais-alugados .carros-imagem{
+.carros-imagem {
+    align-items: center;
+    display: grid;
+}
+
+.carros-imagem img {
+    grid-area: 1/1;
+}
+
+.carros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: url("../../../public/img/dec/top-right.svg") no-repeat top 40px right 20px;
+}
+
+.carros-informacoes h2,
+.carros-informacoes p {
+    grid-column: 1/-1;
+}
+
+.carros-informacoes h2 {
+    margin-bottom: 20px;
+}
+
+.carros-informacoes h2::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
+}
+
+.carros-informacoes p {
+    margin-bottom: 32px;
+}
+
+.carros-informacoes a {
+    place-self: end;
+}
+
+.carros-informacoes li {
+    display: flex;
     align-items: center;
 }
 
-.carros-informacoes{
+.carros-informacoes ul {
+    display: grid;
+    gap: 16px;
+}
+
+.carros-informacoes {
     position: relative;
     overflow: hidden;
 }
 
-.carros-informacoes img{
+.carros-informacoes img {
     width: 24px;
     margin-right: 8px;
 }
 
-.carros-informacoes .card_overlay{
+.carros-informacoes .card_overlay {
     transform: translateY(100%);
     transition: .2s ease-in-out;
     position: relative;
@@ -27,39 +77,35 @@
     padding-top: 20px;
 }
 
-.carros-informacoes .card_header{
+.carros-informacoes .card_header {
     position: relative;
     transform: translateY(-100%);
     transition: .2s ease-in-out;
     top: 0;
 }
 
-.carros-informacoes:hover .card_overlay{
+.carros-informacoes:hover .card_overlay {
     transform: translateY(0);
     color: var(--cor-8);
 }
 
-.carros-informacoes:hover .card_header{
+.carros-informacoes:hover .card_header {
     transform: translateY(0);
 }
 
 @media (max-width: 600px) {
-    .carros-informacoes{
+    .carros-informacoes {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 480px) {
-    .mais-alugados{
+    .mais-alugados {
         display: flex;
         flex-direction: column;
     }
-    .mais-alugados .reverse{
-        display: flex;
-        flex-direction: column-reverse;
-    }
 
-    .carros-informacoes .card_overlay{
+    .carros-informacoes .card_overlay {
         padding-top: 0;
     }
 }

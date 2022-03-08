@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "id": "model_01",
+      "category": "suvs",
+      "link": "/suvs",
+      "img": "./img/carros/suv-1.png",
+      "value": "R$ 299.9"
+    },
+    {
+      "id": "model_02",
+      "category": "conversiveis",
+      "link": "/conversiveis",
+      "img": "./img/carros/conversivel-1.png",
+      "value": "R$ 499.9"
+    },
+    {
+      "id": "model_03",
+      "category": "picapes",
+      "link": "/picapes",
+      "img": "./img/carros/picape-1.png",
+      "value": "R$ 399.9"
+    },
+    {
+      "id": "model_04",
+      "category": "esportivos",
+      "link": "/esportivos",
+      "img": "./img/carros/esportivo-1.png",
+      "value": "R$ 399.9"
+    }
+  ]
+}

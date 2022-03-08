@@ -1,9 +1,13 @@
 import {Link} from "react-router-dom";
+import {Helmet} from "react-helmet";
 
-function Orcamento() {
+function Reserva() {
     return (
         <>
-            <div id="orcamento">
+            <Helmet>
+                <title>DB | Reserva</title>
+            </Helmet>
+            <div id="reserva">
                 <main>
                     <div className="titulo-bg">
                         <div className="titulo container">
@@ -12,8 +16,8 @@ function Orcamento() {
                         </div>
                     </div>
 
-                    <form className="orcamento container" action="/orcamento">
-                        <div className="orcamento-produto">
+                    <form className="reserva container" action="/reserva">
+                        <div className="reserva-produto">
                             <h2 className="font-1-xs cor-5">Alugueis:</h2>
 
                             <input type="radio" name="tipo" value="bikcraft" id="bikcraft"/>
@@ -22,12 +26,12 @@ function Orcamento() {
                             <input type="radio" name="tipo" value="seguro" id="seguro"/>
                             <label for="seguro">Entrega:</label>
 
-                            <div className="orcamento-conteudo" id="orcamento-bikcraft">
+                            <div className="reserva-conteudo" id="reserva-bikcraft">
                                 <h2 className="font-1-xs cor-5">Escolha a sua</h2>
 
                                 <input type="radio" name="produto" value="suv" id="suv"/>
                                 <label for="suv">SUVs <span>R$ 299.9</span></label>
-                                <div className="orcamento-detalhes">
+                                <div className="reserva-detalhes">
                                     <ul className="font-1-xs cor-8">
                                         <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                         <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
@@ -39,7 +43,7 @@ function Orcamento() {
 
                                 <input type="radio" name="produto" value="conversivel" id="conversivel"/>
                                 <label for="conversivel">Conversiveis<span>R$ 499.9</span></label>
-                                <div className="orcamento-detalhes">
+                                <div className="reserva-detalhes">
                                     <ul className="font-1-xs cor-8">
                                         <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                         <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
@@ -51,7 +55,7 @@ function Orcamento() {
 
                                 <input type="radio" name="produto" value="picape" id="picape"/>
                                 <label for="picape">Picapes <span>R$ 399.9</span></label>
-                                <div className="orcamento-detalhes">
+                                <div className="reserva-detalhes">
                                     <ul className="font-1-xs cor-8">
                                         <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                         <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
@@ -63,7 +67,7 @@ function Orcamento() {
 
                                 <input type="radio" name="produto" value="esportivo" id="esportivo"/>
                                 <label htmlFor="esportivo">Esportivos <span>R$ 399.9</span></label>
-                                <div className="orcamento-detalhes">
+                                <div className="reserva-detalhes">
                                     <ul className="font-1-xs cor-8">
                                         <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                         <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
@@ -75,59 +79,19 @@ function Orcamento() {
 
                             </div>
 
-                            <div className="orcamento-conteudo" id="orcamento-seguro">
+                            <div className="reserva-conteudo" id="reserva-seguro">
                                 <h2 className="font-1-xs cor-5">Modalidade de entrega:</h2>
 
                                 <input type="radio" name="produto" value="prata" id="prata"/>
                                 <label for="prata">Entrega na residencia <span>R$ 199.9</span></label>
 
                                 <input type="radio" name="produto" value="ouro" id="ouro"/>
-                                <label for="ouro">Entrega com chover <span>R$ 299.9</span></label>
+                                <label for="ouro">Entrega com motorista <span>R$ 299.9</span></label>
                             </div>
                         </div>
-                        <div className="orcamento-dados form">
+                        <div className="reserva-dados form">
                             <h2 className="font-1-xs cor-9 col-2">Informações da reserva</h2>
-                            {/*<div>*/}
-                            {/*    <label for="nome">Nome</label>*/}
-                            {/*    <input type="text" id="nome" name="nome"/>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <label for="sobrenome">Sobrenome</label>*/}
-                            {/*    <input type="text" id="sobrenome" name="sobrenome"/>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-2">*/}
-                            {/*    <label for="cpf">CPF</label>*/}
-                            {/*    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00"/>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-2">*/}
-                            {/*    <label for="email">Email</label>*/}
-                            {/*    <input type="email" id="email" name="email"/>*/}
-                            {/*</div>*/}
-                            {/*<h2 className="font-1-xs cor-9 col-2">entrega</h2>*/}
-                            {/*<div>*/}
-                            {/*    <label for="cep">CEP</label>*/}
-                            {/*    <input type="text" id="cep" name="cep"/>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <label for="numero">Número</label>*/}
-                            {/*    <input type="text" id="numero" name="numero"/>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <label for="logradouro">Logradouro</label>*/}
-                            {/*    <input type="text" id="logradouro" name="logradouro"/>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <label for="bairro">Bairro</label>*/}
-                            {/*    <input type="text" id="bairro" name="bairro"/>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <label for="cidade">Cidade</label>*/}
-                            {/*    <input type="text" id="cidade" name="cidade"/>*/}
-                            {/*</div>*/}
-                            {/*<div>*/}
-                            {/*    <label for="estado">Estado</label>*/}
-                            {/*    <input type="text" id="estado" name="estado"/>*/}
-                            {/*</div>*/}
+                           {/*TEXTO*/}
                             <button className="botao col-2">Finalizar Reserva</button>
                         </div>
                     </form>
@@ -138,4 +102,4 @@ function Orcamento() {
     )
 }
 
-export default Orcamento;
+export default Reserva;

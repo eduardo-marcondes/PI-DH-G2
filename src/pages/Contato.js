@@ -1,6 +1,11 @@
+import {Helmet} from "react-helmet";
+
 function Contato() {
     return (
         <>
+            <Helmet>
+                <title>DB | Contato</title>
+            </Helmet>
             <div id="contato">
                 <main>
                     <div className="titulo-bg">

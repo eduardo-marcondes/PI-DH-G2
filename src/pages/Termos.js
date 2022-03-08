@@ -1,5 +1,10 @@
+import {Helmet} from "react-helmet";
+
 function Termos() {
     return (<>
+            <Helmet>
+                <title>DB | Termos de uso</title>
+            </Helmet>
             <main>
                 <div className="titulo-bg">
                     <div className="titulo container">

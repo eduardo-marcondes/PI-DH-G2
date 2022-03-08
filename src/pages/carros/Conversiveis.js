@@ -52,15 +52,6 @@ function Conversiveis() {
                                     carbono.</p>
                             </li>
                         </ul>
-                        <h2 className="font-1-xs cor-0">Ficha Técnica</h2>
-                        <ul className="carro-ficha font-2-s cor-4">
-                            <li>Peso <span>9 kg</span></li>
-                            <li>Altura <span>60 cm</span></li>
-                            <li>Largura <span>120 cm</span></li>
-                            <li>Profundidade <span>10 cm</span></li>
-                            <li>Marchas <span>16</span></li>
-                            <li>Roda <span>29</span></li>
-                        </ul>
                     </div>
                 </div>
             </main>

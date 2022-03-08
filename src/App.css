@@ -13,7 +13,7 @@
 @import "./css/home/introducao.css";
 @import "./css/home/parceiros.css";
 @import "./css/home/vantagens.css";
-@import "css/home/populares.css";
+@import "./css/home/populares.css";
 
 /* carros */
 @import "./css/carros/carros-lista.css";
@@ -30,7 +30,7 @@
 @import "./css/contato/lojas.css";
 
 /* Contato */
-@import "./css/orcamento/orcamento.css";
+@import "css/orcamento/reserva.css";
 
 /* Termos */
 @import "./css/termos/termos.css";

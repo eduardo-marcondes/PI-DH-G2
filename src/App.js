@@ -3,10 +3,10 @@ import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Cabecalho from "./pages/components/Cabecalho";
 import Home from "./pages/Home";
-import Categorias from "./pages/Categorias";
+import Frota from "./pages/Frota";
 import Contato from "./pages/Contato";
 import Rodape from './pages/components/Rodape';
-import Orcamento from './pages/Orcamento';
+import Reserva from './pages/Reserva';
 import Termos from './pages/Termos';
 import Suvs from './pages/carros/Suvs'
 import Picapes from "./pages/carros/Picapes";
@@ -22,9 +22,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Cabecalho />}>
           <Route index element={<Home />} />
-          <Route path="categorias" element={<Categorias />} />
+          <Route path="categorias" element={<Frota />} />
           <Route path="contato" element={<Contato />} />
-          <Route path="orcamento" element={<Orcamento />} />
+          <Route path="reserva" element={<Reserva />} />
           <Route path="login" element={<Login/>}/>
           <Route path="termos" element={<Termos />} />
           <Route path="suvs" element={<Suvs />} />
