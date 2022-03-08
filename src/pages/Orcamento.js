@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Orcamento() {
     return (
         <>
@@ -129,6 +131,7 @@ function Orcamento() {
                             <button className="botao col-2">Finalizar Reserva</button>
                         </div>
                     </form>
+                    <span><Link to="/termos">Nossos Termos</Link></span>
                 </main>
             </div>
         </>

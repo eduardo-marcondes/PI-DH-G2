@@ -122,8 +122,8 @@
   margin-top: 20px;
 }
 
-#bikcraft:checked ~ #login-bikcraft,
-#seguro:checked ~ #login-seguro {
+#entrar:checked ~ #login-entrar,
+#cadastro:checked ~ #login-cadastro {
   display: grid;
   gap: 20px;
 }
