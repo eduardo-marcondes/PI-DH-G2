@@ -5,23 +5,29 @@ import Categoria from "./components/Categoria";
 import {Helmet} from "react-helmet";
 
 function Home() {
-
     return (
         <>
             <Helmet>
-                <title>Digital Booking</title>
+                <title>Digital Booking - Luxury Cars</title>
             </Helmet>
             <main className="introducao-bg">
                 <div className="introducao container">
                     <div className="introducao-conteudo">
-                        <h1 className="font-1-xxl cor-0">alugue carros exclusivos<span className="cor-p1">.</span></h1>
-                        <p className="font-2-l cor-5">.</p>
                     </div>
-                    <div className="form form-home">
-                        <input type="text" id="local" name="local" placeholder="Local"/>
-                        <input type="date" id="retirada" name="retirada" placeholder="Retirada"/>
-                        <input type="date" id="devolucao" name="devolucao" placeholder="Devolucao"/>
-                        <input type="submit" className="botao"/>
+                </div>
+
+                <div className="form-container">
+                    <div className="form-align">
+                        <div className="search-title">
+                            <h1 className="container font-1-xxl cor-0">faça já sua reserva<span className="cor-p1">.</span>
+                            </h1>
+                        </div>
+                        <div className="form form-home">
+                            <input type="text" id="local" name="local" placeholder="Local"/>
+                            <input type="date" id="retirada" name="retirada" placeholder="Retirada"/>
+                            <input type="date" id="devolucao" name="devolucao" placeholder="Devolucao"/>
+                            <input type="submit" className="botao" value="CONSULTAR"/>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -37,7 +43,7 @@ function Home() {
                 </div>
 
                 <div className="mais-alugados">
-                    <CardsWhite/>
+                    <CardsWhite />
                 </div>
             </article>
 

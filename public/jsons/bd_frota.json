@@ -10,7 +10,7 @@
       "id": "frota_suv02",
       "marca": "AUDI",
       "modelo": "Q5",
-      "imagem": "./img/carros/"
+      "imagem": "./img/carros/Audi-Q5.jpg"
     },
     {
       "id": "frota_suv03",
@@ -48,7 +48,7 @@
       "id": "frota_conv04",
       "marca": "FORD",
       "modelo": "MUSTANG",
-      "imagem": "./img/carros/FordMustang.jpg"
+      "imagem": "./img/carros/Ford-Mustang-Convertible.jpg"
     }
   ],
   "esportivos": [
@@ -56,7 +56,7 @@
       "id": "frota_esp01",
       "marca": "FORD",
       "modelo": "GT",
-      "imagem": "./img/carros/"
+      "imagem": "./img/carros/Ford-GT.jpg"
     },
     {
       "id": "frota_esp02",

@@ -5,12 +5,10 @@
 }
 
 .form-home{
-  grid-template-columns: 3fr 2fr 2fr 1fr!important;
+  grid-template-columns: 3fr 2fr 2fr 1fr;
   background: black;
   padding: 20px;
-  border-radius: 10px;
-  position: relative;
-  top: 20px;
+  margin-top: 30px;
 }
 
 .form label {
