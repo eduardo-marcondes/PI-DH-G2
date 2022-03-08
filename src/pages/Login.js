@@ -4,7 +4,7 @@ import TitleBgBlack from "./components/titles/TitleBgBlack";
 import Input from "./components/Input";
 //import useLocalStorage from "./../hooks/useLocalStorage";
 import useForm from "./../hooks/useForm";
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 const Login = () => {
 
@@ -17,14 +17,29 @@ const Login = () => {
     const email = useForm('email');
     const password = useForm('password');
 
+    //usuario registrado
+    const user = "laurasouza@digitalbooking.com";
+    const pass = "laurasouza123";
+    const valueEmail = email.value;
+    const valuePass = password.value;
+
     //validação
-    function handleSubmit(event) {
+    const navigate = useNavigate();
+    const handleSubmit = (event) => {
         event.preventDefault();
 
         if (email.validate() && password.validate()) {
-            console.log("Enviar")
+            redirectHome();
         } else {
-            console.log("Não enviar")
+            alert("Corrija seus dados")
+        }
+    }
+
+    function redirectHome() {
+        if (user === valueEmail && pass === valuePass) {
+            return navigate("/home-user")
+        } else {
+            alert("Por favor, tente novamente, suas credenciais são inválidas")
         }
     }
 
@@ -51,7 +66,7 @@ const Login = () => {
                                         <Input label="Password" type="password" id="password"
                                                {...password}/>
                                     </div>
-                                    <button className="botao">Iniciar Sessão</button>
+                                    <button className="botao" type="submit">Iniciar Sessão</button>
                                     <NavLink to="/cadastro" className="col-2">Cadastro</NavLink>
                                 </div>
                             </div>

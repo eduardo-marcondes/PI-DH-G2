@@ -5,7 +5,7 @@ const types = {
         regex: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
         message: 'Email inválido'
     },
-    password: {regex: /^\wd{6,}$/, message: 'A senha deve conter no minimo 6 caracteres'}
+    password: {regex: /^\w{6,}$/, message: 'A senha deve conter no minimo 6 caracteres'}
 };
 
 const useForm = (type) => {
