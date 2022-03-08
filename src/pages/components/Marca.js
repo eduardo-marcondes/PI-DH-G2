@@ -1,10 +1,10 @@
+import TitleBgWhite from "./titles/TitleBgWhite";
+
 function Marca() {
+    const title = {span: "luxo e personalidade", title: "marcas"}
     return (
         <section className="parceiros" aria-label="Nossos Parceiros">
-            <div className="titulo container">
-                <p className="font-2-l-b cor-5">Luxo e personalidade</p>
-                <h2 className="container font-1-xxl">marcas<span className="cor-p1">.</span></h2>
-            </div>
+            <TitleBgWhite {...title}/>
             <ul>
                 <li><img src="./img/parceiros/audi.svg" alt="Audi"/></li>
                 <li><img src="./img/parceiros/audi.png" alt="Audi"/></li>

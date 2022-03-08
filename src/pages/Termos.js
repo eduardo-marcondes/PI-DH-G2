@@ -1,17 +1,15 @@
 import {Helmet} from "react-helmet";
+import TitleBgBlack from "./components/titles/TitleBgBlack";
 
 function Termos() {
-    return (<>
+    const title = {span: "Termos de uso", title: "termos e condições"}
+    return (
+        <>
             <Helmet>
                 <title>DB | Termos de uso</title>
             </Helmet>
             <main>
-                <div className="titulo-bg">
-                    <div className="titulo container">
-                        <p className="font-2-l-b cor-5">Termos de uso</p>
-                        <h1 className="font-1-xxl cor-0">termos e condições<span className="cor-p1">.</span></h1>
-                    </div>
-                </div>
+                <TitleBgBlack {...title}/>
 
                 <div className="termos font-2-s cor-10 container">
                     <h2 className="font-1-l cor-11">1. Política de Estorno</h2>

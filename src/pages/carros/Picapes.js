@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 function Picapes() {
     return (
         <>
+            <Helmet>
+                <title>DB | Categoria > Picapes</title>
+            </Helmet>
             <main className="titulo-bg">
                 <div>
                     <div className="titulo container">

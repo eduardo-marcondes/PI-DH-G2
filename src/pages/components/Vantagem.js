@@ -1,11 +1,12 @@
+import TitleBgBlack from "./titles/TitleBgBlack";
+
 function Vantagem() {
+    const title = {span: "A melhor experiencia de luxo em aluguel de carros", title: "vantagens"}
     return (
         <article className="vantagens-bg">
+            <TitleBgBlack {...title}/>
+
             <div className="vantagens container">
-                <div className="titulo container">
-                    <p className="font-2-l-b cor-5">A melhor experiencia de luxo em aluguel de carros</p>
-                    <h2 className="container font-1-xxl cor-0">vantagens<span className="cor-p1">.</span></h2>
-                </div>
                 <ul>
                     <li>
                         <img src="./img/icones/dogs.png" alt="" style={{width: "32px"}}/>

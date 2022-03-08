@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 function Esportivos() {
     return (
         <>
+            <Helmet>
+                <title>DB | Categoria > Esportivos</title>
+            </Helmet>
+
             <main className="titulo-bg">
                 <div>
                     <div className="titulo container">

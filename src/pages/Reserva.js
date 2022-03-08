@@ -1,7 +1,9 @@
 import {Link} from "react-router-dom";
 import {Helmet} from "react-helmet";
+import TitleBgBlack from "./components/titles/TitleBgBlack";
 
 function Reserva() {
+    const title = {span: "informações da sua reserva", title: "reserva"}
     return (
         <>
             <Helmet>
@@ -9,12 +11,7 @@ function Reserva() {
             </Helmet>
             <div id="reserva">
                 <main>
-                    <div className="titulo-bg">
-                        <div className="titulo container">
-                            <p className="font-2-l-b cor-5">Cotações no seu email</p>
-                            <h1 className="font-1-xxl cor-0">solicite um orçamento<span className="cor-p1">.</span></h1>
-                        </div>
-                    </div>
+                    <TitleBgBlack {...title}/>
 
                     <form className="reserva container" action="/reserva">
                         <div className="reserva-produto">
@@ -91,7 +88,7 @@ function Reserva() {
                         </div>
                         <div className="reserva-dados form">
                             <h2 className="font-1-xs cor-9 col-2">Informações da reserva</h2>
-                           {/*TEXTO*/}
+                            {/*TEXTO*/}
                             <button className="botao col-2">Finalizar Reserva</button>
                         </div>
                     </form>

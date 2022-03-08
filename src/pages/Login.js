@@ -1,7 +1,10 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import TitleBgBlack from "./components/titles/TitleBgBlack";
 
 function Login() {
+
+    const title = {span: "sua experiência começa aqui!", title: "acesse sua área exclusiva"}
 
     const [isInputValue, setInputValue] = React.useState('Login');
 
@@ -13,7 +16,6 @@ function Login() {
         setInputValue('Cadastro');
     };
 
-
     return (
         <>
             <Helmet>
@@ -22,14 +24,7 @@ function Login() {
 
             <div id="login">
                 <main>
-                    <div className="titulo-bg">
-                        <div className="titulo container">
-                            <p className="font-2-l-b cor-5">Sua experiência começa aqui!</p>
-                            <h1 className="font-1-xxl cor-0">acesse sua área exclusiva<span className="cor-p1">.</span>
-                            </h1>
-                        </div>
-                    </div>
-
+                    <TitleBgBlack {...title}/>
                     <form className="login container">
                         <div className="login-produto">
                             <h2 className="font-1-xs cor-5">Efetuar login</h2>

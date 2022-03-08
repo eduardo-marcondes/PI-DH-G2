@@ -1,8 +1,15 @@
 import {Link} from 'react-router-dom';
+import {Helmet} from "react-helmet";
+import ListCategory from "../components/cards/ListCategory";
 
 function Conversiveis() {
+
     return (
         <>
+            <Helmet>
+                <title>DB | Categoria > Conversiveis</title>
+            </Helmet>
+
             <main className="titulo-bg">
                 <div>
                     <div className="titulo container">
@@ -10,6 +17,7 @@ function Conversiveis() {
                         <h1 className="font-1-xxl cor-0">Conversiveis<span className="cor-p1">.</span></h1>
                     </div>
                 </div>
+
                 <div className="carro container">
                     <div className="carro-imagens">
                         <img src="../img/carros/conversivel-1.jpg" alt=""/>
@@ -21,8 +29,7 @@ function Conversiveis() {
                         <div className="carro-comprar">
                             <Link className="botao" to="/orcamento">Comprar Agora</Link>
                             <span className="font-1-xs cor-6"><img src="../img/icones/entrega.svg" alt=""/> entrega em 5 dias</span>
-                            <span className="font-1-xs cor-6"><img src="../img/icones/estoque.svg"
-                                                               alt=""/> 18 em estoque</span>
+                            <span className="font-1-xs cor-6"><img src="../img/icones/estoque.svg" alt=""/> 18 em estoque</span>
                         </div>
 
                         <h2 className="font-1-xs cor-0">Informações</h2>
@@ -60,28 +67,9 @@ function Conversiveis() {
                 <h2 className="font-1-xxl">escolha outras categorias<span className="cor-p1">.</span></h2>
 
                 <ul>
-                    <li>
-                        <Link to="/suvs">
-                            <img src="../img/carros/suv-1.jpg" alt="Modelo Suv"/>
-                            <h3 className="font-1-xl">Suvs</h3>
-                            <span className="font-2-m cor-8">R$ 299.9</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/picapes">
-                            <img src="../img/carros/picape-1.jpg" alt="Modelo Picape"/>
-                            <h3 className="font-1-xl">Picapes</h3>
-                            <span className="font-2-m cor-8">R$ 399.9</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/esportivos">
-                            <img src="../img/carros/esportivo-1.jpg" alt="Modelo Esportivo"/>
-                            <h3 className="font-1-xl">Esportivos</h3>
-                            <span className="font-2-m cor-8">R$ 399.9</span>
-                        </Link>
-                    </li>
+                   <ListCategory/>
                 </ul>
+
             </article>
         </>
     )
