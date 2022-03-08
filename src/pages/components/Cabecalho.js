@@ -34,6 +34,8 @@ function Cabecalho() {
                         </ul>
 
                         <Link to="/login" className="font-1-m cor-0">Login</Link>
+                        <Link to="/cadastro" className="font-1-m cor-0">Cadastro</Link>
+
                     </div>
                 </nav>
             </header>
