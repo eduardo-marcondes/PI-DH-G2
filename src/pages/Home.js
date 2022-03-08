@@ -78,7 +78,7 @@ function Home() {
                 </div>
 
                 <div className="mais-alugados">
-                   <CardsWhite/>
+                    <CardsWhite/>
                 </div>
             </article>
 
@@ -135,14 +135,14 @@ function Home() {
                     <h2 className="container font-1-xxl">marcas<span className="cor-p1">.</span></h2>
                 </div>
                 <ul>
-                    <li><img src="./img/parceiros/caravan.svg" alt="Caravan" width="140" height="38"/></li>
-                    <li><img src="./img/parceiros/ranek.svg" alt="Ranek" width="149" height="36"/></li>
-                    <li><img src="./img/parceiros/handel.svg" alt="Handel" width="140" height="50"/></li>
-                    <li><img src="./img/parceiros/dogs.svg" alt="Dogs" width="152" height="39"/></li>
-                    <li><img src="./img/parceiros/lescone.svg" alt="LeScone" width="208" height="41"/></li>
-                    <li><img src="./img/parceiros/flexblog.svg" alt="FlexBlog" width="165" height="38"/></li>
                     <li><img src="./img/parceiros/audi.svg" alt="Audi" width="200" height="34"/></li>
-                    <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot" width="200" height="49"/></li>
+                    <li><img src="./img/parceiros/audi.png" alt="Audi" width="140" height="38"/></li>
+                    <li><img src="./img/parceiros/bmw.png" alt="BMW" width="149" height="36"/></li>
+                    <li><img src="./img/parceiros/dodge.png" alt="Dodge" width="140" height="50"/></li>
+                    <li><img src="./img/parceiros/ford.png" alt="Ford" width="152" height="39"/></li>
+                    <li><img src="./img/parceiros/gmc.png" alt="GMC" width="208" height="41"/></li>
+                    <li><img src="./img/parceiros/jeep.png" alt="Jeep" width="165" height="38"/></li>
+                    <li><img src="./img/parceiros/porsche.png" alt="Porsche" width="200" height="49"/></li>
                 </ul>
             </section>
         </>

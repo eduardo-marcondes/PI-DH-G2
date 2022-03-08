@@ -23,6 +23,8 @@
 
 .parceiros img {
   margin: auto;
+  filter: grayscale(100%);
+  opacity: 60%;
 }
 
 .parceiros li:first-child,
