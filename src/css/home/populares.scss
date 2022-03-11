@@ -4,12 +4,12 @@
   margin: -1px -1px;
 }
 
-.carros-imagem {
+.populars-imagem {
   align-items: center;
   display: grid;
 }
 
-.carros-imagem img {
+.populars-imagem img {
   grid-area: 1/1;
 }
 
@@ -22,16 +22,16 @@
     background: url("../../../public/img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
-.carros-informacoes h2,
-.carros-informacoes p {
+.populars-informacoes h2,
+.populars-informacoes p {
   grid-column: 1/-1;
 }
 
-.carros-informacoes h2 {
+.populars-informacoes h2 {
   margin-bottom: 20px;
 }
 
-.carros-informacoes h2::before {
+.populars-informacoes h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -40,35 +40,35 @@
   margin-bottom: 8px;
 }
 
-.carros-informacoes p {
+.populars-informacoes p {
   margin-bottom: 32px;
 }
 
-.carros-informacoes a {
+.populars-informacoes a {
   place-self: end;
 }
 
-.carros-informacoes li {
+.populars-informacoes li {
   display: flex;
   align-items: center;
 }
 
-.carros-informacoes ul {
+.populars-informacoes ul {
   display: grid;
   gap: 16px;
 }
 
-.carros-informacoes {
+.populars-informacoes {
   position: relative;
   overflow: hidden;
 }
 
-.carros-informacoes img {
+.populars-informacoes img {
   width: 24px;
   margin-right: 8px;
 }
 
-.carros-informacoes .card_overlay {
+.populars-informacoes .card_overlay {
   transform: translateY(100%);
   transition: .2s ease-in-out;
   position: relative;
@@ -77,24 +77,24 @@
   padding-top: 20px;
 }
 
-.carros-informacoes .card_header {
+.populars-informacoes .card_header {
   position: relative;
   transform: translateY(-100%);
   transition: .2s ease-in-out;
   top: 0;
 }
 
-.carros-informacoes:hover .card_overlay {
+.populars-informacoes:hover .card_overlay {
   transform: translateY(0);
   color: var(--cor-8);
 }
 
-.carros-informacoes:hover .card_header {
+.populars-informacoes:hover .card_header {
   transform: translateY(0);
 }
 
 @media (max-width: 600px) {
-  .carros-informacoes {
+  .populars-informacoes {
     grid-template-columns: 1fr;
   }
 }
@@ -105,7 +105,7 @@
     flex-direction: column;
   }
 
-  .carros-informacoes .card_overlay {
+  .populars-informacoes .card_overlay {
     padding-top: 0;
   }
 }

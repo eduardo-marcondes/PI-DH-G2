@@ -11,8 +11,8 @@ function Termos() {
             <main>
                 <TitleBgBlack {...title}/>
 
-                <div className="termos font-2-s cor-10 container">
-                    <h2 className="font-1-l cor-11">1. Política de Estorno</h2>
+                <div className="termos font-text-1 cor-2 container">
+                    <h2 className="font-1-l cor-3">1. Política de Estorno</h2>
                     <p>1.1 Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                         também
                         aceitamos PIX e Boleto. Aceitamos pagamentos parcelados em todos os cartões de crédito. Para
@@ -25,12 +25,12 @@ function Termos() {
                         também
                         aceitamos PIX e Boleto. Aceitamos pagamentos parcelados em todos os cartões de crédito. Para
                         pagamentos à vista também aceitamos PIX e Boleto.</p>
-                    <h2 className="font-1-l cor-11">2. Conta do Usuário</h2>
+                    <h2 className="font-1-l cor-3">2. Conta do Usuário</h2>
                     <p>2.1 Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                         também
                         aceitamos PIX e Boleto. Aceitamos pagamentos parcelados em todos os cartões de crédito. Para
                         pagamentos à vista também aceitamos PIX e Boleto.</p>
-                    <h2 className="font-1-l cor-11">3. Pagamentos</h2>
+                    <h2 className="font-1-l cor-3">3. Pagamentos</h2>
                     <p>3.1 Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista
                         também
                         aceitamos PIX e Boleto. Aceitamos pagamentos parcelados em todos os cartões de crédito. Para

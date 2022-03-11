@@ -27,14 +27,14 @@ function Cabecalho() {
                         <Link to="/">
                             <img src="./logo192.png" width="136" height="32" alt="Logotipo Digital Booking"/>
                         </Link>
-                        <ul className="header-menu font-1-m cor-0">
+                        <ul className="header-menu font-h4 cor-0">
                             <li><NavLink to="/categorias">Categorias</NavLink></li>
                             <li><NavLink to="/reserva">Reserva</NavLink></li>
                             <li><NavLink to="/contato">Contato</NavLink></li>
                         </ul>
 
-                        <Link to="/login" className="font-1-m cor-0">Login</Link>
-                        <Link to="/cadastro" className="font-1-m cor-0">Cadastro</Link>
+                        <Link to="/login" className="font-h4 cor-0">Login</Link>
+                        <Link to="/cadastro" className="font-h4 cor-0">Cadastro</Link>
 
                     </div>
                 </nav>

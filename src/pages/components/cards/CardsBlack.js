@@ -22,8 +22,8 @@ function CardsBlack() {
                                 </div>
                                 <div className="carros-informacoes">
                                     <div>
-                                        <h2 className="font-1-xl cor-0">{carItem.title}</h2>
-                                        <ul className="font-1-m cor-5">
+                                        <h2 className="font-h2 cor-0">{carItem.title}</h2>
+                                        <ul className="font-h4 cor-1">
                                             <li>
                                                 <img src="./img/icones/motor.png" alt=""/>
                                                 {carItem.category}
@@ -33,7 +33,7 @@ function CardsBlack() {
                                                 {carItem.localization}
                                             </li>
                                         </ul>
-                                        <p className="font-2-s cor-5">{carItem.description}</p>
+                                        <p className="font-text-1 cor-1">{carItem.description}</p>
                                     </div>
                                     <Link className="botao seta" to="/esportivos">Mais Sobre</Link>
                                 </div>

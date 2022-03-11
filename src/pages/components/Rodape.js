@@ -3,7 +3,7 @@ function Rodape() {
     <>
       <footer className="footer-bg">
         <div className="footer container">
-          <p className="footer-copy font-2-m cor-6">© 2022 Digital Booking </p>
+          <p className="footer-copy font-h4 cor-1">© 2022 Digital Booking </p>
 
           <div className="footer-redes">
             <a href="./">

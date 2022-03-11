@@ -19,7 +19,7 @@ function ListCategory() {
                             <Link to={categoriesItem.link}>
                                 <img src={categoriesItem.img} alt={categoriesItem.category}/>
                                 <div className="carro-textos">
-                                    <h3 className="font-1-xl">{categoriesItem.category}</h3>
+                                    <h3 className="font-h2">{categoriesItem.category}</h3>
                                 </div>
                             </Link>
                         </li>

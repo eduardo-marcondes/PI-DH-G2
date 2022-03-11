@@ -33,7 +33,7 @@ const Login = () => {
         } else {
             alert("Corrija seus dados")
         }
-    }
+    };
 
     function redirectHome() {
         if (user === valueEmail && pass === valuePass) {
@@ -57,7 +57,7 @@ const Login = () => {
 
                             <div className="login-conteudo" id="login-entrar">
                                 <div className="login-dados form">
-                                    <h2 className="font-1-xs cor-9 col-2">Conecte-se</h2>
+                                    <h2 className="font-text-2 cor-2 col-2">Conecte-se</h2>
                                     <div>
                                         <Input label="Email" type="email" id="email"
                                                placeholder="exemplo@.com" {...email}/>

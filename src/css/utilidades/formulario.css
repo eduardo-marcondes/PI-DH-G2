@@ -4,16 +4,9 @@
   gap: 20px;
 }
 
-.form-home{
-  grid-template-columns: 3fr 2fr 2fr 1fr;
-  background: black;
-  padding: 20px;
-  margin-top: 30px;
-}
-
 .form label {
   display: block;
-  font: 400 1rem/1.5 "Poppins", sans-serif;
+  font: 500 14px "Roboto", sans-serif;
   margin-bottom: 4px;
 }
 
@@ -26,7 +19,7 @@
 .form input[type="date"],
 .form input[type="password"],
 .form textarea {
-  font: 400 1rem/1.5 "Roboto", sans-serif;
+  font: 500 14px "Roboto", sans-serif;
   background: var(--cor-1);
   border: 1px solid var(--cor-2);
   padding: 12px;

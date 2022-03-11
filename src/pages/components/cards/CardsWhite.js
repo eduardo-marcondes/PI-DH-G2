@@ -16,13 +16,13 @@ function CardsWhite() {
             {
                 cars.map((carItem, key) => {
                     return <React.Fragment key={key}>
-                        <div className="carros container">
-                            <div className="carros-imagem">
+                        <div className="populars container">
+                            <div className="populars-imagem">
                                 <img src={carItem.img} alt={carItem.category}/>
                             </div>
-                            <div className="carros-informacoes">
-                                <h2 className="font-1-xl">{carItem.title}</h2>
-                                <ul className="font-1-m cor-8">
+                            <div className="populars-informacoes">
+                                <h2 className="font-h2">{carItem.title}</h2>
+                                <ul className="font-h4 cor-8">
                                     <li>
                                         <img src="./img/icones/carro.png" alt="icon car model"/>
                                         {carItem.category}
@@ -33,7 +33,7 @@ function CardsWhite() {
                                     </li>
                                 </ul>
 
-                                    <p className="font-2-s cor-8 card_overlay">{carItem.description}</p>
+                                    <p className="font-text-1 cor-8 card_overlay">{carItem.description}</p>
 
                                 <div className="card_header">
                                     <Link className="botao seta" to="/suvs">Mais Sobre</Link>

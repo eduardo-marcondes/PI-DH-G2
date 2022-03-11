@@ -44,7 +44,7 @@ function Cadastro() {
                         <div className="login-produto">
                             <div className="login-conteudo" id="login-cadastro">
                                 <div className="login-dados form">
-                                    <h2 className="font-1-xs cor-9 col-2">Cadastre-se</h2>
+                                    <h2 className="font-text-2 cor-2 col-2">Cadastre-se</h2>
                                     <div>
                                         <Input label="Nome" type="text" id="nome"
                                                {...nome}/>

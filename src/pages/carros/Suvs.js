@@ -10,8 +10,8 @@ function Suvs() {
             <main className="titulo-bg">
                 <div>
                     <div className="titulo container">
-                        <p className="font-2-xl cor-5">R$ 299.9</p>
-                        <h1 className="font-1-xxl cor-0">SUVs<span className="cor-p1">.</span></h1>
+                        <p className="font-h2 cor-1">R$ 299.9</p>
+                        <h1 className="font-h1 cor-0">SUVs<span className="cor-p1">.</span></h1>
                     </div>
                 </div>
                 <div className="carro container">
@@ -21,43 +21,43 @@ function Suvs() {
                         <img src="../img/carros/suv-3.jpg" alt=""/>
                     </div>
                     <div className="carro-conteudo">
-                        <p className="font-2-l cor-5">Carros maiores e com um porta-malas mais amplo, para quem prefere
+                        <p className="font-h3 cor-1">Carros maiores e com um porta-malas mais amplo, para quem prefere
                             ter mais de espaço, conforto e tecnologia.</p>
                         <div className="carro-comprar">
                             <Link className="botao" to="/orcamento">Comprar Agora</Link>
-                            <span className="font-1-xs cor-6"><img src="../img/icones/entrega.svg" alt=""/> entrega em 5 dias</span>
-                            <span className="font-1-xs cor-6"><img src="../img/icones/estoque.svg" alt=""/> 18 em estoque</span>
+                            <span className="font-text-2 cor-1"><img src="../img/icones/entrega.svg" alt=""/> entrega em 5 dias</span>
+                            <span className="font-text-2 cor-1"><img src="../img/icones/estoque.svg" alt=""/> 18 em estoque</span>
                         </div>
 
-                        <h2 className="font-1-xs cor-0">Informações</h2>
+                        <h2 className="font-text-2 cor-0">Informações</h2>
                         <ul className="carro-informacoes">
                             <li>
                                 <img src="../img/icones/motor.png" alt=""/>
-                                <h3 className="font-1-m cor-0">Motor Elétrico</h3>
-                                <p className="font-2-xs cor-5">Permite você viajar distâncias inimaginaveis com a sua
+                                <h3 className="font-h4 cor-0">Motor Elétrico</h3>
+                                <p className="font-text-1 cor-1">Permite você viajar distâncias inimaginaveis com a sua
                                     bike.</p>
                             </li>
                             <li>
                                 <img src="../img/icones/velocidade.svg" alt=""/>
-                                <h3 className="font-1-m cor-0">45 km/h</h3>
-                                <p className="font-2-xs cor-5">A mais rápida carro elétrica disponível hoje no
+                                <h3 className="font-h4 cor-0">45 km/h</h3>
+                                <p className="font-text-1 cor-1">A mais rápida carro elétrica disponível hoje no
                                     mercado.</p>
                             </li>
                             <li>
                                 <img src="../img/icones/rastreador.svg" alt=""/>
-                                <h3 className="font-1-m cor-0">Rastreador</h3>
-                                <p className="font-2-xs cor-5">Rastreador e sistema anti-furto para garantir o seu
+                                <h3 className="font-h4 cor-0">Rastreador</h3>
+                                <p className="font-text-1 cor-1">Rastreador e sistema anti-furto para garantir o seu
                                     sossego.</p>
                             </li>
                             <li>
                                 <img src="../img/icones/carbono.svg" alt=""/>
-                                <h3 className="font-1-m cor-0">Fibra de Carbono</h3>
-                                <p className="font-2-xs cor-5">Maior proteção possível para a sua Bikcraft com fibra de
+                                <h3 className="font-h4 cor-0">Fibra de Carbono</h3>
+                                <p className="font-text-1 cor-1">Maior proteção possível para a sua Bikcraft com fibra de
                                     carbono.</p>
                             </li>
                         </ul>
-                        <h2 className="font-1-xs cor-0">Ficha Técnica</h2>
-                        <ul className="carro-ficha font-2-s cor-4">
+                        <h2 className="font-text-2 cor-0">Ficha Técnica</h2>
+                        <ul className="carro-ficha font-text-1 cor-4">
                             <li>Peso <span>9 kg</span></li>
                             <li>Altura <span>60 cm</span></li>
                             <li>Largura <span>120 cm</span></li>
@@ -70,28 +70,28 @@ function Suvs() {
             </main>
 
             <article className="carros-lista container">
-                <h2 className="font-1-xxl">escolha outras categorias<span className="cor-p1">.</span></h2>
+                <h2 className="font-h1">escolha outras categorias<span className="cor-p1">.</span></h2>
 
                 <ul>
                     <li>
                         <Link to="/picapes">
                             <img src="../img/carros/picape-1.jpg" alt="Modelo Picape"/>
-                            <h3 className="font-1-xl">Picapes</h3>
-                            <span className="font-2-m cor-8">R$ 399.9</span>
+                            <h3 className="font-h2">Picapes</h3>
+                            <span className="font-h4 cor-8">R$ 399.9</span>
                         </Link>
                     </li>
                     <li>
                         <Link to="/esportivos">
                             <img src="../img/carros/esportivo-1.jpg" alt="Modelo Esportivo"/>
-                            <h3 className="font-1-xl">Esportivos</h3>
-                            <span className="font-2-m cor-8">R$ 399.9</span>
+                            <h3 className="font-h2">Esportivos</h3>
+                            <span className="font-h4 cor-8">R$ 399.9</span>
                         </Link>
                     </li>
                     <li>
                         <Link to="/conversiveis">
                             <img src="../img/carros/conversivel-1.jpg" alt="Modelo Conversivel"/>
-                            <h3 className="font-1-xl">Conversiveis</h3>
-                            <span className="font-2-m cor-8">R$ 499.9</span>
+                            <h3 className="font-h2">Conversiveis</h3>
+                            <span className="font-h4 cor-8">R$ 499.9</span>
                         </Link>
                     </li>
                 </ul>
