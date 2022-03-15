@@ -6,14 +6,14 @@ function Populars() {
     const title = {span: "os mais alugados de nossa frota", title: "populares"}
     return (
         <>
-            <section className="bg-black">
+            <article className="bg-black">
                 <div className="container">
                     <TitleBgBlack {...title}/>
                     <div className="mais-alugados">
                         <CardsBlack/>
                     </div>
                 </div>
-            </section>
+            </article>
         </>
     )
 }

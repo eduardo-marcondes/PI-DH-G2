@@ -3,7 +3,7 @@ import TitleBgWhite from "./titles/TitleBgWhite";
 function Marca() {
     const title = {span: "luxo e personalidade", title: "marcas"}
     return (
-        <section className="parceiros">
+        <article className="parceiros">
             <div className="container">
                 <TitleBgWhite {...title}/>
                 <ul>
@@ -17,7 +17,7 @@ function Marca() {
                     <li><img src="./img/parceiros/porsche.svg" alt="Porsche"/></li>
                 </ul>
             </div>
-        </section>
+        </article>
     )
 }
 

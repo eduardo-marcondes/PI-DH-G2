@@ -8,9 +8,10 @@ body {
 }
 
 main {
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 90vh;
 }
 
 h1,
@@ -33,7 +34,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 
 
 img {

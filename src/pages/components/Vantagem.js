@@ -3,7 +3,7 @@ import TitleBgBlack from "./titles/TitleBgBlack";
 function Vantagem() {
     const title = {span: "A melhor experiencia de luxo em aluguel de carros", title: "vantagens"}
     return (
-        <section className="vantagens-bg">
+        <section className="bg-black">
             <div className="container">
                 <TitleBgBlack {...title}/>
 

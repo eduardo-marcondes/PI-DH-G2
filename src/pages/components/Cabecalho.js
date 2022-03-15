@@ -35,7 +35,7 @@ function Cabecalho() {
                             <img src="./logo192.png" width="136" height="32" alt="Logotipo Digital Booking"/>
                         </Link>
                         <div className="header-menu">
-                            <ul className="font-h4 cor-2">
+                            <ul className="font-h4 cor-0">
                                 <li><NavLink to="/categorias">Categorias</NavLink></li>
                                 <li><NavLink to="/reserva">Reserva</NavLink></li>
                                 <li><NavLink to="/contato">Contato</NavLink></li>

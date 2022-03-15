@@ -11,7 +11,7 @@ function Cadastro() {
     const title = {span: "sua experiência começa aqui!", title: "acesse sua área exclusiva"}
 
     //localStorage:
-    //const [userLogin, setUserLogin] = useLocalStorage('nome', '');
+    //const [usercadastro, setUsercadastro] = useLocalStorage('nome', '');
 
     //form:
     const emailCad = useForm('email');
@@ -37,42 +37,43 @@ function Cadastro() {
                 <title>DB | Cadastro</title>
             </Helmet>
             <main>
-                <section id="login">
+                <section id="cadastro">
 
-                    <TitleBgBlack {...title}/>
+                    <div className="container">
+                        <TitleBgBlack {...title}/>
 
-                    <form className="login" onSubmit={handleSubmit}>
-                        <div className="login-produto">
-                            <div className="login-conteudo" id="login-cadastro">
-                                <div className="login-dados form">
-                                    <h2 className="font-text-2 cor-2 col-2">Cadastre-se</h2>
-                                    <div>
-                                        <Input label="Nome" type="text" id="nome"
-                                               {...nome}/>
+                        <form className="cadastro" onSubmit={handleSubmit}>
+                            <div className="cadastro-produto">
+                                <div className="cadastro-conteudo" id="cadastro-cadastro">
+                                    <div className="cadastro-dados form">
+                                        <h2 className="font-text-2 cor-2 col-2">Cadastre-se</h2>
+                                        <div>
+                                            <Input label="Nome" type="text" id="nome"
+                                                   {...nome}/>
+                                        </div>
+                                        <div>
+                                            <Input label="Sobrenome" type="text" id="sobrenome"
+                                                   {...sobrenome}/>
+                                        </div>
+                                        <div>
+                                            <Input label="Email" type="email" id="emailCad"
+                                                   placeholder="exemplo@.com" {...emailCad}/>
+                                        </div>
+                                        <div>
+                                            <Input label="Repetir Email" type="email" id="isEmail"
+                                                   placeholder="exemplo@.com" {...isEmail}/>
+                                        </div>
+                                        <div className="col-2">
+                                            <Input label="Password" type="password" id="passwordCad"
+                                                   {...passwordCad}/>
+                                        </div>
+                                        <button className="botao">Registrar</button>
+                                        <NavLink to="/login" className="col-2">Login</NavLink>
                                     </div>
-                                    <div>
-                                        <Input label="Sobrenome" type="text" id="sobrenome"
-                                               {...sobrenome}/>
-                                    </div>
-                                    <div>
-                                        <Input label="Email" type="email" id="emailCad"
-                                               placeholder="exemplo@.com" {...emailCad}/>
-                                    </div>
-                                    <div>
-                                        <Input label="Repetir Email" type="email" id="isEmail"
-                                               placeholder="exemplo@.com" {...isEmail}/>
-                                    </div>
-                                    <div className="col-2">
-                                        <Input label="Password" type="password" id="passwordCad"
-                                               {...passwordCad}/>
-                                    </div>
-                                    <button className="botao">Registrar</button>
-                                    <NavLink to="/login" className="col-2">Login</NavLink>
                                 </div>
                             </div>
-                        </div>
-                    </form>
-
+                        </form>
+                    </div>
                 </section>
             </main>
         </>

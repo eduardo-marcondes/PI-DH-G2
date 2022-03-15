@@ -16,7 +16,7 @@ function Home() {
                 <div className="introducao-bg">
                 </div>
 
-                <section className="bg-black">
+                <article className="bg-black">
                     <div className="container">
                         <TitleBgBlack {...title}/>
                         <div className="form form-home">
@@ -26,15 +26,12 @@ function Home() {
                             <input type="submit" className="botao" value="CONSULTAR"/>
                         </div>
                     </div>
-                </section>
+                </article>
 
 
                 <Categoria/>
 
                 <Populars/>
-
-                <Vantagem/>
-                <Marca/>
             </main>
         </>
     )

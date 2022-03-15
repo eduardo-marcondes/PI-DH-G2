@@ -24,6 +24,7 @@
 
 /*Login*/
 @import "./css/login/login.css";
+@import "./css/login/cadastro.css";
 
 /* Contato */
 @import "./css/contato/contato.css";

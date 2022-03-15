@@ -24,7 +24,7 @@ function Suvs() {
                         <p className="font-h3 cor-1">Carros maiores e com um porta-malas mais amplo, para quem prefere
                             ter mais de espaço, conforto e tecnologia.</p>
                         <div className="carro-comprar">
-                            <Link className="botao" to="/orcamento">Comprar Agora</Link>
+                            <Link className="botao" to="/orcamento">Alugar Agora</Link>
                             <span className="font-text-2 cor-1"><img src="../img/icones/entrega.svg" alt=""/> entrega em 5 dias</span>
                             <span className="font-text-2 cor-1"><img src="../img/icones/estoque.svg" alt=""/> 18 em estoque</span>
                         </div>
@@ -56,7 +56,7 @@ function Suvs() {
                                     carbono.</p>
                             </li>
                         </ul>
-                        <h2 className="font-text-2 cor-0">Ficha Técnica</h2>
+                        <h2 className="font-text-2 cor-0">Características</h2>
                         <ul className="carro-ficha font-text-1 cor-4">
                             <li>Peso <span>9 kg</span></li>
                             <li>Altura <span>60 cm</span></li>
