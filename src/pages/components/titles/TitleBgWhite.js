@@ -2,9 +2,9 @@ function TitleBgWhite(props) {
     const {span, title} = props;
     return (
         <>
-            <div className="titulo container">
+            <div className="titulo">
                 <p className="font-h3 cor-1">{span}</p>
-                <h2 className="container font-h1">{title}<span className="cor-p1">.</span></h2>
+                <h1 className="font-h1">{title}<span className="cor-p1">.</span></h1>
             </div>
         </>
     )

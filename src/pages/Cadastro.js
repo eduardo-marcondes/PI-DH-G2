@@ -1,5 +1,5 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 import TitleBgBlack from "./components/titles/TitleBgBlack";
 import Input from "./components/Input";
 //import useLocalStorage from "./../hooks/useLocalStorage";
@@ -36,11 +36,12 @@ function Cadastro() {
             <Helmet>
                 <title>DB | Cadastro</title>
             </Helmet>
+            <main>
+                <section id="login">
 
-            <div id="login">
-                <main>
                     <TitleBgBlack {...title}/>
-                    <form className="login container" onSubmit={handleSubmit}>
+
+                    <form className="login" onSubmit={handleSubmit}>
                         <div className="login-produto">
                             <div className="login-conteudo" id="login-cadastro">
                                 <div className="login-dados form">
@@ -71,8 +72,9 @@ function Cadastro() {
                             </div>
                         </div>
                     </form>
-                </main>
-            </div>
+
+                </section>
+            </main>
         </>
     )
 }

@@ -15,12 +15,11 @@ function CardsBlack() {
             {
                 cars.map((carItem, key) => {
                     return <React.Fragment key={key}>
-                        <div className="carros-bg">
-                            <div className="carros container">
-                                <div className="carros-imagem">
+                            <div className="populars">
+                                <div className="populars-imagem">
                                     <img src={carItem.img} alt={carItem.category}/>
                                 </div>
-                                <div className="carros-informacoes">
+                                <div className="populars-informacoes">
                                     <div>
                                         <h2 className="font-h2 cor-0">{carItem.title}</h2>
                                         <ul className="font-h4 cor-1">
@@ -38,7 +37,6 @@ function CardsBlack() {
                                     <Link className="botao seta" to="/esportivos">Mais Sobre</Link>
                                 </div>
                             </div>
-                        </div>
                     </React.Fragment>
                 })
             }

@@ -5,7 +5,7 @@
 .reserva {
   display: grid;
   grid-template-columns: 5fr 7fr;
-  padding-bottom: 120px;
+
 }
 
 .reserva h2 {
@@ -27,7 +27,7 @@
 
 .reserva-produto,
 .reserva-dados {
-  padding: 60px;
+
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,7 +53,7 @@
   font: 400 1rem/1.5 "Roboto", sans-serif;
   color: var(--cor-4);
   background-color: var(--cor-2);
-  padding: 12px 16px;
+
   border-radius: 4px;
   cursor: pointer;
   display: grid;
@@ -131,7 +131,7 @@
 .reserva-detalhes {
   display: none;
   background: var(--cor-0);
-  padding: 20px;
+
   grid-template-columns: 1fr 1fr;
   border-radius: 4px;
   align-items: center;
@@ -155,7 +155,7 @@
 @media (max-width: 1200px) {
   .reserva-produto,
   .reserva-dados {
-    padding: 32px;
+
   }
 }
 

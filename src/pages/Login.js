@@ -1,5 +1,5 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 import TitleBgBlack from "./components/titles/TitleBgBlack";
 import Input from "./components/Input";
 //import useLocalStorage from "./../hooks/useLocalStorage";
@@ -48,32 +48,33 @@ const Login = () => {
             <Helmet>
                 <title>DB | Login </title>
             </Helmet>
+            <main>
+                <section id="login">
+                    <div className="container">
+                        <TitleBgBlack {...title}/>
+                        <form className="login" onSubmit={handleSubmit}>
+                            <div className="login-produto">
 
-            <div id="login">
-                <main>
-                    <TitleBgBlack {...title}/>
-                    <form className="login container" onSubmit={handleSubmit}>
-                        <div className="login-produto">
-
-                            <div className="login-conteudo" id="login-entrar">
-                                <div className="login-dados form">
-                                    <h2 className="font-text-2 cor-2 col-2">Conecte-se</h2>
-                                    <div>
-                                        <Input label="Email" type="email" id="email"
-                                               placeholder="exemplo@.com" {...email}/>
+                                <div className="login-conteudo" id="login-entrar">
+                                    <div className="login-dados form">
+                                        <h2 className="font-text-2 cor-2 col-2">Conecte-se</h2>
+                                        <div>
+                                            <Input label="Email" type="email" id="email"
+                                                   placeholder="exemplo@.com" {...email}/>
+                                        </div>
+                                        <div>
+                                            <Input label="Password" type="password" id="password"
+                                                   {...password}/>
+                                        </div>
+                                        <button className="botao" type="submit">Iniciar Sessão</button>
+                                        <NavLink to="/cadastro" className="col-2">Cadastro</NavLink>
                                     </div>
-                                    <div>
-                                        <Input label="Password" type="password" id="password"
-                                               {...password}/>
-                                    </div>
-                                    <button className="botao" type="submit">Iniciar Sessão</button>
-                                    <NavLink to="/cadastro" className="col-2">Cadastro</NavLink>
                                 </div>
                             </div>
-                        </div>
-                    </form>
-                </main>
-            </div>
+                        </form>
+                    </div>
+                </section>
+            </main>
         </>
     )
 }

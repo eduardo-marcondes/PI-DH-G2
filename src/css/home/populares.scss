@@ -13,13 +13,11 @@
   grid-area: 1/1;
 }
 
-.carros {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: url("../../../public/img/dec/top-right.svg") no-repeat top 40px right 20px;
+.populars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 2rem 0;
 }
 
 .populars-informacoes h2,
@@ -41,7 +39,7 @@
 }
 
 .populars-informacoes p {
-  margin-bottom: 32px;
+  margin: 20px 0;
 }
 
 .populars-informacoes a {
@@ -55,7 +53,8 @@
 
 .populars-informacoes ul {
   display: grid;
-  gap: 16px;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .populars-informacoes {
@@ -74,7 +73,7 @@
   position: relative;
   top: 0;
   color: white;
-  padding-top: 20px;
+
 }
 
 .populars-informacoes .card_header {
@@ -93,17 +92,13 @@
   transform: translateY(0);
 }
 
-@media (max-width: 600px) {
-  .populars-informacoes {
+@media (max-width: 800px) {
+  .mais-alugados {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
-  .mais-alugados {
-    display: flex;
-    flex-direction: column;
-  }
 
   .populars-informacoes .card_overlay {
     padding-top: 0;

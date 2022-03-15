@@ -16,7 +16,7 @@ function CardsWhite() {
             {
                 cars.map((carItem, key) => {
                     return <React.Fragment key={key}>
-                        <div className="populars container">
+                        <div className="populars">
                             <div className="populars-imagem">
                                 <img src={carItem.img} alt={carItem.category}/>
                             </div>

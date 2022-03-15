@@ -5,8 +5,8 @@ function Cabecalho() {
     const [navSize, setnavSize] = useState("10rem");
     const [navColor, setnavColor] = useState("transparent");
     const listenScrollEvent = () => {
-        window.scrollY > 10 ? setnavColor("#111111") : setnavColor("transparent");
-        window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
+        window.scrollY > 10 ? setnavColor("#DFE4EA") : setnavColor("transparent");
+        window.scrollY > 10 ? setnavSize("5rem") : setnavSize("5rem");
     };
     useEffect(() => {
         window.addEventListener("scroll", listenScrollEvent);
@@ -15,26 +15,38 @@ function Cabecalho() {
         };
     }, []);
 
+    function toggleMenu() {
+
+        const hmenu = document.getElementById('hmenu');
+        hmenu.classList.toggle('active');
+
+    }
+
     return (
         <>
             <header className="header-bg">
-                <nav aria-label="primaria" style={{
+                <nav id="nav" style={{
                     backgroundColor: navColor,
                     height: navSize,
                     transition: "all 1s"
                 }}>
-                    <div className="header container">
+                    <div className="header" id='hmenu'>
                         <Link to="/">
                             <img src="./logo192.png" width="136" height="32" alt="Logotipo Digital Booking"/>
                         </Link>
-                        <ul className="header-menu font-h4 cor-0">
-                            <li><NavLink to="/categorias">Categorias</NavLink></li>
-                            <li><NavLink to="/reserva">Reserva</NavLink></li>
-                            <li><NavLink to="/contato">Contato</NavLink></li>
-                        </ul>
-
-                        <Link to="/login" className="font-h4 cor-0">Login</Link>
-                        <Link to="/cadastro" className="font-h4 cor-0">Cadastro</Link>
+                        <div className="header-menu">
+                            <ul className="font-h4 cor-2">
+                                <li><NavLink to="/categorias">Categorias</NavLink></li>
+                                <li><NavLink to="/reserva">Reserva</NavLink></li>
+                                <li><NavLink to="/contato">Contato</NavLink></li>
+                                <li><NavLink to="/login">Login</NavLink></li>
+                                <li><NavLink to="/cadastro">Cadastro</NavLink></li>
+                            </ul>
+                        </div>
+                        <button id="btn-mobile" onClick={toggleMenu}>
+                            <p>Menu</p>
+                            <span id="hamburger"></span>
+                        </button>
 
                     </div>
                 </nav>

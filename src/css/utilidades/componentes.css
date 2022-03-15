@@ -1,106 +1,103 @@
 .container {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+    padding: 4rem 4rem;
 }
 
-
-.botao {
-  display: inline-block;
-  padding: 16px 32px;
-  background: var(--cor-p1);
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-  color: var(--cor-p4);
-  font: 500 14px "Roboto", sans-serif;
-  max-width: max-content;
-  border: none;
-  cursor: pointer;
-}
-
-.botao:hover {
-  background: var(--cor-p2);
-}
-
-.botao.secundario {
-  background: var(--cor-2);
-  color: var(--cor-2);
-}
-
-.botao.secundario:hover {
-  background: var(--cor-2);
-}
-
-.botao.seta {
-  display: flex;
-  align-items: center;
-}
-
-.botao.seta::after {
-  content: "";
-  display: inline-block;
-  width: 18px;
-  height: 10px;
-  margin-left: 12px;
-  background: url("./../../../public/img/icones/seta.svg");
-  transition: transform 0.2s;
-}
-
-.botao.seta:hover::after {
-  transform: translateX(4px);
-}
-
-@media (max-width: 600px) {
-  .botao {
-    padding: 12px 16px;
-    font-size: 1rem;
-  }
-}
-
-.link {
-  display: inline-block;
-  color: var(--cor-p1);
-  font: 500 12px "Roboto", sans-serif;
-  text-transform: uppercase;
-}
-
-.link::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: currentColor;
-}
-
-.link:hover {
-  color: var(--cor-0);
-}
-
-/* titulo internas */
-.titulo-bg {
-  padding-top: 150px;
-  padding-bottom: 60px;
-  background-color: var(--cor-4);
+.bg-black {
+    background-color: var(--cor-3);
 }
 
 .titulo {
-  background: url("./../../../public/img/dec/top-right.svg") no-repeat top right 20px;
+    background: url("./../../../public/img/dec/top-right.svg") no-repeat top right 10px;
+    padding-bottom: 2rem;
+}
+
+.titulo h1 {
+    padding-left: 2rem;
 }
 
 .titulo p {
-  margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--cor-p1);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    color: var(--cor-p4);
+    font: 500 14px "Roboto", sans-serif;
+    max-width: max-content;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: var(--cor-p2);
+}
+
+.botao.secundario {
+    background: var(--cor-2);
+    color: var(--cor-2);
+}
+
+.botao.secundario:hover {
+    background: var(--cor-2);
+}
+
+.botao.seta {
+    display: flex;
+    align-items: center;
+}
+
+.botao.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("./../../../public/img/icones/seta.svg");
+    transition: transform 0.2s;
+}
+
+.botao.seta:hover::after {
+    transform: translateX(4px);
+}
+
+.link {
+    display: inline-block;
+    color: var(--cor-p1);
+    font: 500 12px "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+}
+
+.link:hover {
+    color: var(--cor-0);
+}
+
+
 @media (max-width: 800px) {
-  .titulo-bg {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .titulo p {
-    text-transform: lowercase;
-  }
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .titulo p {
+        text-transform: lowercase;
+    }
+}
+
+@media (max-width: 600px) {
+    .botao {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
 }

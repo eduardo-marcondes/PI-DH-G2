@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import ListCategory from "../components/cards/ListCategory";
 
 function Conversiveis() {
@@ -10,15 +10,15 @@ function Conversiveis() {
                 <title>DB | Categoria > Conversiveis</title>
             </Helmet>
 
-            <main className="titulo-bg">
+            <main className="titulo-black">
                 <div>
-                    <div className="titulo container">
+                    <div className="titulo">
                         <p className="font-h2 cor-1">R$ 499.9</p>
                         <h1 className="font-h1 cor-0">Conversiveis<span className="cor-p1">.</span></h1>
                     </div>
                 </div>
 
-                <div className="carro container">
+                <div className="carro">
                     <div className="carro-imagens">
                         
                             <img src="../img/carros/conversivel-1.jpg" alt="" />
@@ -73,14 +73,14 @@ function Conversiveis() {
                 </div>
             </main>
 
-            <article className="carros-lista container">
+            <div className="carros-lista">
                 <h2 className="font-h1">escolha outras categorias<span className="cor-p1">.</span></h2>
 
                 <ul>
                     <ListCategory />
                 </ul>
 
-            </article>
+            </div>
         </>
     )
 }

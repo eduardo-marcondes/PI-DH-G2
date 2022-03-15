@@ -1,4 +1,4 @@
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 function Contato() {
     return (
@@ -7,16 +7,16 @@ function Contato() {
                 <title>DB | Contato</title>
             </Helmet>
             <main>
-                <section id="contato">
-                    <div className="titulo-bg">
-                        <div className="titulo container">
+                <div id="contato">
+                    <div className="titulo-black">
+                        <div className="titulo">
                             <p className="font-h3 cor-1">Respostas em até 24h</p>
                             <h1 className="font-h1 cor-0">nosso contato<span className="cor-p1">.</span></h1>
                         </div>
                     </div>
 
-                    <div className="contato container">
-                        <section className="contato-dados" aria-label="Endereço">
+                    <div className="contato">
+                        <div className="contato-dados" aria-label="Endereço">
                             <h2 className="font-h4 cor-0">Loja Online</h2>
                             <div className="contato-endereco font-text-1 cor-4">
                                 <p>Rua Ali Perto, 35</p>
@@ -39,8 +39,8 @@ function Contato() {
                                     <img src="./img/redes/youtube-p.svg" alt="Youtube"/>
                                 </a>
                             </div>
-                        </section>
-                        <section className="contato-formulario" aria-label="Formulário">
+                        </div>
+                        <div className="contato-formulario" aria-label="Formulário">
                             <form className="form" action="/contato">
                                 <div>
                                     <label for="nome">Nome</label>
@@ -61,11 +61,11 @@ function Contato() {
                                 </div>
                                 <button className="botao col-2">Enviar Mensagem</button>
                             </form>
-                        </section>
+                        </div>
                     </div>
-                </section>
+                </div>
 
-                <article className="lojas container">
+                <div className="lojas">
                     <h2 className="font-h1">lojas locais<span className="cor-p1">.</span></h2>
                     <div className="lojas-item">
                         <img src="./img/lojas/rj.jpg"
@@ -102,7 +102,7 @@ function Contato() {
                                 seg à dom</p>
                         </div>
                     </div>
-                </article>
+                </div>
             </main>
         </>
     )
