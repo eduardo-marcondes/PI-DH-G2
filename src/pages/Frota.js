@@ -58,8 +58,7 @@ function Categorias() {
                                 </div>
                                 <div className="carros-conteudo">
                                     <h2 className="font-h2 cor-0">Conversiveis</h2>
-                                    <p className="font-text-1 cor-1">Carros que prezam pelo conforto e luxo, para
-                                        uma
+                                    <p className="font-text-1 cor-1">Carros que prezam pelo conforto e luxo, para uma
                                         experiência na direção incomparável, e sensação de liberdade.</p>
                                     <ul className="font-h4 cor-1">
                                         <li>

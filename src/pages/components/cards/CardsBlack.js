@@ -21,8 +21,8 @@ function CardsBlack() {
                                 </div>
                                 <div className="populars-informacoes">
                                     <div>
-                                        <h2 className="font-h2 cor-0">{carItem.title}</h2>
-                                        <ul className="font-h4 cor-1">
+                                        <h3 className="font-h3 cor-0">{carItem.title}</h3>
+                                        <ul className="font-text-1 cor-1">
                                             <li>
                                                 <img src="./img/icones/motor.png" alt=""/>
                                                 {carItem.category}
