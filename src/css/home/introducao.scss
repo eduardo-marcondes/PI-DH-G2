@@ -11,6 +11,10 @@
   background-color: var(--cor-3);
 }
 
+.form-home{
+  justify-content: center;
+}
+
 @media (min-width: 700px) {
   .form-home {
     display: flex;

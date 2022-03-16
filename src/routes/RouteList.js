@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {HelmetProvider} from 'react-helmet-async';
-import Cabecalho from "../pages/components/Cabecalho";
+import Cabecalho from "../pages/components/global/Cabecalho";
 import Home from "../pages/Home";
 import Frota from "../pages/Frota";
 import Contato from "../pages/Contato";
@@ -13,7 +13,7 @@ import Conversiveis from "../pages/carros/Conversiveis";
 import Esportivos from "../pages/carros/Esportivos";
 import Picapes from "../pages/carros/Picapes";
 import Cadastro from "../pages/Cadastro";
-import Rodape from "../pages/components/Rodape";
+import Rodape from "../pages/components/global/Rodape";
 
 function RouteList() {
     return (

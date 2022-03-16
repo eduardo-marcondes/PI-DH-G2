@@ -12,4 +12,4 @@ export const useLocalStorage = (key, inicial) => {
     }, [key, setState]);
 
     return [state, setState];
-}
+};

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet-async";
 import TitleBgBlack from "./components/titles/TitleBgBlack";
-import Input from "./components/Input";
+import Input from "./components/forms/Input";
 //import useLocalStorage from "./../hooks/useLocalStorage";
 import useForm from "./../hooks/useForm";
 import {NavLink, useNavigate} from "react-router-dom";
