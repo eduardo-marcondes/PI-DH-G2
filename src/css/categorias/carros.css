@@ -1,100 +1,106 @@
 .carros-bg {
-  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-3) 0%);
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-3) 0%);
+}
+
+.carros-white{
+  background: linear-gradient(to right, transparent 30%, var(--cor-0) 0%);
 }
 
 .carros {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 40px;
 }
 
 .carros-imagem {
-  display: grid;
+    display: grid;
 }
 
 .carros-imagem img {
-  grid-area: 1/1;
+    grid-area: 1/1;
 }
 
 .carros-imagem span {
-  grid-area: 1/1;
-  place-self: start end;
-  margin-top: 20px;
-  background: var(--cor-4);
-  display: inline-block;
-  padding: 8px 16px 8px 8px;
-  border-radius: 4px 0 0 4px;
+    grid-area: 1/1;
+    place-self: start end;
+    margin-top: 20px;
+    background: var(--cor-4);
+    display: inline-block;
+    padding: 8px 16px 8px 8px;
+    border-radius: 4px 0 0 4px;
 }
 
 .carros-conteudo {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-content: start;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
 }
 
 .carros h2,
 .carros p {
-  grid-column: 1/-1;
+    grid-column: 1/-1;
 }
 
 .carros h2 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .carros h2::before {
-  content: "";
-  display: block;
-  width: 12px;
-  height: 8px;
-  background-color: var(--cor-p1);
-  margin-bottom: 8px;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background-color: var(--cor-p1);
+    margin-bottom: 8px;
 }
 
 .carros p {
-  margin-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .carros a {
-  place-self: end;
+    place-self: end;
 }
 
 .carros li {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .carros ul {
-  display: grid;
-  gap: 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .carros-conteudo img {
-  width: 24px;
-  margin-right: 8px;
+    width: 24px;
+    margin-right: 8px;
 }
 
 @media (max-width: 820px) {
-  .carros-bg {
-    background: var(--cor-3);
-  }
-  .carros {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+    .carros-bg {
+        background: var(--cor-3);
+    }
+
+    .carros {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
 @media (max-width: 600px) {
-  .carros-conteudo {
-    grid-template-columns: 1fr;
-  }
-  .carros ul {
-    font-size: 1rem;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 32px;
-  }
-  .carros a {
-    place-self: start;
-  }
+    .carros-conteudo {
+        grid-template-columns: 1fr;
+    }
+
+    .carros ul {
+        font-size: 1rem;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+    }
+
+    .carros a {
+        place-self: start;
+    }
 }
