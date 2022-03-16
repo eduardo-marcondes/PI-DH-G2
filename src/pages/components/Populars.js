@@ -10,6 +10,7 @@ function Populars() {
                 <div className="container">
                     <TitleBgBlack {...title}/>
                     <div className="mais-alugados">
+                        <CardsBlack/>
                         <CardsAnimation/>
                     </div>
                 </div>

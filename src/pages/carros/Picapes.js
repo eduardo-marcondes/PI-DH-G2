@@ -96,7 +96,7 @@ function Picapes() {
 
                 <article className="carros-lista">
                     <div className="container">
-                        <h2 className="font-h1">escolha outras categorias<span className="cor-p1">.</span></h2>
+                        <h2 className="font-h1">escolha outras categorias<span className="cor-l1">.</span></h2>
 
                         <ul>
                             <ListCategory/>

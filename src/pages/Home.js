@@ -2,6 +2,7 @@ import Categoria from "./components/Categoria";
 import {Helmet} from "react-helmet-async";
 import Populars from "./components/Populars";
 import TitleBgBlack from "./components/titles/TitleBgBlack";
+import Marca from "./components/Marca";
 
 function Home() {
     const title = {span: "Viaje com estilo", title: "faça já sua reserva"}
@@ -30,6 +31,8 @@ function Home() {
                 <Categoria/>
 
                 <Populars/>
+
+                <Marca/>
             </main>
         </>
     )

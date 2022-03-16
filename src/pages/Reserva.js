@@ -10,7 +10,7 @@ function Reserva() {
                 <title>DB | Reserva</title>
             </Helmet>
             <main>
-                <section id="reserva">
+                <section className="titulo-bg">
                     <div className="container">
                         <TitleBgBlack {...title}/>
 
@@ -30,7 +30,7 @@ function Reserva() {
                                     <input type="radio" name="produto" value="suv" id="suv"/>
                                     <label for="suv">SUVs <span>R$ 299.9</span></label>
                                     <div className="reserva-detalhes">
-                                        <ul className="font-text-2 cor-8">
+                                        <ul className="font-text-2 cor-3">
                                             <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                             <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
                                             <li><img src="./img/icones/velocidade.svg" alt=""/> 50 km/h</li>
@@ -42,7 +42,7 @@ function Reserva() {
                                     <input type="radio" name="produto" value="conversivel" id="conversivel"/>
                                     <label for="conversivel">Conversiveis<span>R$ 499.9</span></label>
                                     <div className="reserva-detalhes">
-                                        <ul className="font-text-2 cor-8">
+                                        <ul className="font-text-2 cor-3">
                                             <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                             <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
                                             <li><img src="./img/icones/velocidade.svg" alt=""/> 45 km/h</li>
@@ -54,7 +54,7 @@ function Reserva() {
                                     <input type="radio" name="produto" value="picape" id="picape"/>
                                     <label for="picape">Picapes <span>R$ 399.9</span></label>
                                     <div className="reserva-detalhes">
-                                        <ul className="font-text-2 cor-8">
+                                        <ul className="font-text-2 cor-3">
                                             <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                             <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
                                             <li><img src="./img/icones/velocidade.svg" alt=""/> 40 km/h</li>
@@ -66,7 +66,7 @@ function Reserva() {
                                     <input type="radio" name="produto" value="esportivo" id="esportivo"/>
                                     <label htmlFor="esportivo">Esportivos <span>R$ 399.9</span></label>
                                     <div className="reserva-detalhes">
-                                        <ul className="font-text-2 cor-8">
+                                        <ul className="font-text-2 cor-3">
                                             <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
                                             <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
                                             <li><img src="./img/icones/velocidade.svg" alt=""/> 40 km/h</li>

@@ -34,7 +34,7 @@ function CardsBlack() {
                                     </ul>
                                     <p className="font-text-1 cor-1">{carItem.description}</p>
                                 </div>
-                                <Link className="botao seta" to="/">Mais Sobre</Link>
+                                <Link className="botao" to="/">Mais Sobre</Link>
                             </div>
                         </div>
                     </React.Fragment>

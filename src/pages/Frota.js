@@ -23,11 +23,11 @@ function Categorias() {
                                 </div>
                                 <div className="carros-conteudo">
                                     <h2 className="font-h2">SUVs</h2>
-                                    <p className="font-text-1 cor-8">Carros maiores e com um porta-malas mais amplo,
+                                    <p className="font-text-1 cor-3">Carros maiores e com um porta-malas mais amplo,
                                         para
                                         quem
                                         prefere ter mais de espaço, conforto e tecnologia.</p>
-                                    <ul className="font-h4 cor-8">
+                                    <ul className="font-h4 cor-3">
                                         <li>
                                             <img src="./img/icones/motor.png" alt=""/>
                                             Motor Elétrico
@@ -91,10 +91,10 @@ function Categorias() {
                                 </div>
                                 <div className="carros-conteudo">
                                     <h2 className="font-h2">Picapes</h2>
-                                    <p className="font-text-1 cor-8">Carros ideais para quem está sempre em movimento, e
+                                    <p className="font-text-1 cor-3">Carros ideais para quem está sempre em movimento, e
                                         curte se
                                         aventurar. Possui carroceria espaçosa e tração 4x4.</p>
-                                    <ul className="font-h4 cor-8">
+                                    <ul className="font-h4 cor-3">
                                         <li>
                                             <img src="./img/icones/motor.png" alt=""/>
                                             Motor Elétrico

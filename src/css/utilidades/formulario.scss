@@ -2,16 +2,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-}
 
-.form label {
-  display: block;
-  font: 500 14px "Roboto", sans-serif;
-  margin-bottom: 4px;
-}
+  label {
+    display: block;
+    font: 500 14px "Roboto", sans-serif;
+    margin-bottom: 4px;
+  }
 
-.form .col-2 {
-  grid-column: span 2;
+  .col-2 {
+    grid-column: span 2;
+  }
 }
 
 .form input[type="text"],
@@ -42,8 +42,9 @@
 @media (max-width: 600px) {
   .form {
     grid-template-columns: 1fr;
-  }
-  .form .col-2 {
-    grid-column: 1;
+
+    .col-2 {
+      grid-column: 1;
+    }
   }
 }
