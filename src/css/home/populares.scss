@@ -106,4 +106,8 @@
   .populars-informacoes .card_overlay {
     padding-top: 0;
   }
+
+  .populars-informacoes ul {
+    grid-template-columns: 1fr;
+  }
 }
