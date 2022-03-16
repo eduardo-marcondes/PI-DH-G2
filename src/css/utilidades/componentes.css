@@ -15,6 +15,10 @@ section {
     background-color: var(--cor-3);
 }
 
+.titulo-bg{
+    background: linear-gradient(var(--cor-3) 300px, var(--cor-0) 0px);
+}
+
 .titulo {
     /*background: url("./../../../public/img/dec/top-right.svg") no-repeat top right 10px;*/
     padding-bottom: 1.5rem;

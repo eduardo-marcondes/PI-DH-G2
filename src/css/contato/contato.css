@@ -1,7 +1,3 @@
-#contato {
-  background: linear-gradient(var(--cor-3) 205px, var(--cor-0) 0px);
-}
-
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;

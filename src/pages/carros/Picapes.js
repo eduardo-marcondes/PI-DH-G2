@@ -38,7 +38,7 @@ function Picapes() {
                                         experiência na
                                         direção incomparável, e sensação de liberdade.</p>
                                     <div className="carro-comprar">
-                                        <Link className="botao" to="/orcamento">Alugar Agora</Link>
+                                        <Link className="botao" to="/reserva">Alugar Agora</Link>
                                     </div>
 
                                     <h2 className="font-text-2 cor-0">Características</h2>
@@ -80,7 +80,7 @@ function Picapes() {
                                         <li>
                                             <img src="../img/icones/carbono.svg" alt=""/>
                                             <h3 className="font-h4 cor-0">Fibra de Carbono</h3>
-                                            <p className="font-text-1 cor-1">Maior proteção possível para a sua Bikcraft
+                                            <p className="font-text-1 cor-1">Maior proteção possível para a sua digitalbooking
                                                 com
                                                 fibra
                                                 de

@@ -49,7 +49,7 @@ const Login = () => {
                 <title>DB | Login </title>
             </Helmet>
             <main>
-                <section id="login">
+                <section className="titulo-bg">
                     <div className="container">
                         <TitleBgBlack {...title}/>
                         <form className="login" onSubmit={handleSubmit}>

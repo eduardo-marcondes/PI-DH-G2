@@ -37,7 +37,7 @@ function Cadastro() {
                 <title>DB | Cadastro</title>
             </Helmet>
             <main>
-                <section id="cadastro">
+                <section className="titulo-bg">
 
                     <div className="container">
                         <TitleBgBlack {...title}/>

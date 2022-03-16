@@ -10,7 +10,7 @@ function Contato() {
                 <title>DB | Contato</title>
             </Helmet>
             <main>
-                <section id="contato">
+                <section className="titulo-bg">
                     <div className="container">
                         <TitleBgBlack {...title}/>
 
@@ -23,21 +23,10 @@ function Contato() {
                                     <p>Brasil - Terra - Vita Láctea</p>
                                 </div>
                                 <address className="contato-meios font-text-1 cor-0">
-                                    <a href="mailto:contato@bikcraft.com">contato@digitalbooking.com</a>
-                                    <a href="mailto:assistencia@bikcraft.com">assistencia@digitalbooking.com</a>
+                                    <a href="mailto:contato@digitalbooking.com">contato@digitalbooking.com</a>
+                                    <a href="mailto:assistencia@digitalbooking.com">assistencia@digitalbooking.com</a>
                                     <a href="tel:+552199999999">+55 21 9999-9999</a>
                                 </address>
-                                <div className="contato-redes">
-                                    <a href="./">
-                                        <img src="./img/redes/instagram-p.svg" alt="Instagram"/>
-                                    </a>
-                                    <a href="./">
-                                        <img src="./img/redes/facebook-p.svg" alt="Facebook"/>
-                                    </a>
-                                    <a href="./">
-                                        <img src="./img/redes/youtube-p.svg" alt="Youtube"/>
-                                    </a>
-                                </div>
                             </div>
                             <div className="contato-formulario" aria-label="Formulário">
                                 <form className="form" action="/contato">
@@ -79,7 +68,7 @@ function Contato() {
                                     <p>Rio de Janeiro - RJ</p>
                                 </div>
                                 <div className="lojas-dados font-text-1 cor-8">
-                                    <a href="mailto:rj@bikcraft.com">rj@digitalbooking.com</a>
+                                    <a href="mailto:rj@digitalbooking.com">rj@digitalbooking.com</a>
                                     <a href="tel:+552199999999">+55 21 9999-9999</a>
                                 </div>
                                 <p className="lojas-tempo font-text-1"><img src="./img/icones/horario.svg" alt=""/>08-18h
@@ -98,7 +87,7 @@ function Contato() {
                                     <p>São Paulo - SP</p>
                                 </div>
                                 <div className="lojas-dados font-text-1 cor-8">
-                                    <a href="mailto:sp@bikcraft.com">sp@digitalbooking.com</a>
+                                    <a href="mailto:sp@digitalbooking.com">sp@digitalbooking.com</a>
                                     <a href="tel:+551199999999">+55 11 9999-9999</a>
                                 </div>
                                 <p className="lojas-tempo font-text-1"><img src="./img/icones/horario.svg" alt=""/>08-18h
