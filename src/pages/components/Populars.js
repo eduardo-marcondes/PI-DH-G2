@@ -1,5 +1,5 @@
 import TitleBgBlack from "./titles/TitleBgBlack";
-import CardsWhite from "./cards/CardsWhite";
+import CardsAnimation from "./cards/CardsAnimation";
 import CardsBlack from "./cards/CardsBlack";
 
 function Populars() {
@@ -10,7 +10,7 @@ function Populars() {
                 <div className="container">
                     <TitleBgBlack {...title}/>
                     <div className="mais-alugados">
-                        <CardsBlack/>
+                        <CardsAnimation/>
                     </div>
                 </div>
             </article>

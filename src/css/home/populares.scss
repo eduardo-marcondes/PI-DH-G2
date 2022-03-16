@@ -54,8 +54,8 @@
 
 .populars-informacoes ul {
   display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  grid-template-columns: 1fr 2fr;
 }
 
 .populars-informacoes {
@@ -73,7 +73,7 @@
   transition: .2s ease-in-out;
   position: relative;
   top: 0;
-  color: white;
+  color: var(--cor-4);
 
 }
 
@@ -82,11 +82,12 @@
   transform: translateY(-100%);
   transition: .2s ease-in-out;
   top: 0;
+  text-align: end;
 }
 
 .populars-informacoes:hover .card_overlay {
   transform: translateY(0);
-  color: var(--cor-8);
+  color: var(--cor-0);
 }
 
 .populars-informacoes:hover .card_header {

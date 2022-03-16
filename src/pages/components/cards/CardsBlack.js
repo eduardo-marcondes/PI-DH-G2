@@ -15,28 +15,28 @@ function CardsBlack() {
             {
                 cars.map((carItem, key) => {
                     return <React.Fragment key={key}>
-                            <div className="populars">
-                                <div className="populars-imagem">
-                                    <img src={carItem.img} alt={carItem.category}/>
-                                </div>
-                                <div className="populars-informacoes">
-                                    <div>
-                                        <h3 className="font-h3 cor-0">{carItem.title}</h3>
-                                        <ul className="font-text-1 cor-1">
-                                            <li>
-                                                <img src="./img/icones/motor.png" alt=""/>
-                                                {carItem.category}
-                                            </li>
-                                            <li>
-                                                <img src="./img/icones/rastreador.svg" alt=""/>
-                                                {carItem.localization}
-                                            </li>
-                                        </ul>
-                                        <p className="font-text-1 cor-1">{carItem.description}</p>
-                                    </div>
-                                    <Link className="botao seta" to="/esportivos">Mais Sobre</Link>
-                                </div>
+                        <div className="populars">
+                            <div className="populars-imagem">
+                                <img src={carItem.img} alt={carItem.category}/>
                             </div>
+                            <div className="populars-informacoes">
+                                <div>
+                                    <h3 className="font-h3 cor-0">{carItem.title}</h3>
+                                    <ul className="font-text-1 cor-1">
+                                        <li>
+                                            <img src="./img/icones/rastreador.svg" alt="icon local"/>
+                                            {carItem.localization}
+                                        </li>
+                                        <li>
+                                            <img src="./img/icones/motor.png" alt="icon car model"/>
+                                            {carItem.category}
+                                        </li>
+                                    </ul>
+                                    <p className="font-text-1 cor-1">{carItem.description}</p>
+                                </div>
+                                <Link className="botao seta" to="/">Mais Sobre</Link>
+                            </div>
+                        </div>
                     </React.Fragment>
                 })
             }
