@@ -2,9 +2,10 @@ import {Link} from 'react-router-dom';
 import {Helmet} from "react-helmet-async";
 import ListCategory from "../components/cards/ListCategory";
 import TitleBgBlack from "../components/titles/TitleBgBlack";
+import Vantagem from "../components/Vantagem";
 
 function Conversiveis() {
-    const title = {span: "R$ 499.90", title: "Conversiveis"}
+    const title = {span: "R$ 499.90", title: "Conversiveis"};
     return (
         <>
             <Helmet>
@@ -12,13 +13,12 @@ function Conversiveis() {
             </Helmet>
 
             <main>
-
                 <section className="bg-black">
                     <div className="bg-image">
                         <div className="container">
                             <TitleBgBlack {...title}/>
 
-                        
+
                             <div className="carro">
                                 <div className="carro-imagens">
 
@@ -104,6 +104,7 @@ function Conversiveis() {
                         </ul>
                     </div>
                 </article>
+                <Vantagem/>
             </main>
         </>
     )

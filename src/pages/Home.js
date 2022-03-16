@@ -1,5 +1,3 @@
-import Marca from "./components/Marca";
-import Vantagem from "./components/Vantagem";
 import Categoria from "./components/Categoria";
 import {Helmet} from "react-helmet-async";
 import Populars from "./components/Populars";

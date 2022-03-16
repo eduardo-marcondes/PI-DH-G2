@@ -5,7 +5,6 @@
 }
 
 .populars-imagem {
-  align-items: center;
   display: grid;
 }
 
@@ -54,7 +53,7 @@
 .populars-informacoes ul {
   display: grid;
   gap: 10px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .populars-informacoes {
@@ -92,14 +91,21 @@
   transform: translateY(0);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .mais-alugados {
     grid-template-columns: 1fr;
   }
+  .populars {
+    grid-template-columns: 1fr;
+  }
+
+  .populars-informacoes ul{
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
 
 @media (max-width: 480px) {
-
   .populars-informacoes .card_overlay {
     padding-top: 0;
   }
