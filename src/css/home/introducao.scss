@@ -11,12 +11,12 @@
   background-color: var(--cor-3);
 }
 
-.form-home{
+.form-home {
   justify-content: center;
 }
 
 /*estilizando calendario*/
-.form input[type="tel"]{
+.form input[type="tel"] {
   font: 500 14px "Roboto", sans-serif;
   background: var(--cor-1);
   border: none;
@@ -24,13 +24,14 @@
   border-radius: 4px;
   text-align: center;
   width: 100px;
-  &:focus{
+
+  &:focus {
     outline: none;
     background: var(--cor-0);
   }
 }
 
-.form #mui-1-label, .form #mui-2-label{
+.form #mui-1-label, .form #mui-2-label, .form #mui-18-label, .form #mui-19-label {
   color: white;
 }
 
