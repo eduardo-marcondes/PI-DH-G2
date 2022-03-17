@@ -19,11 +19,10 @@
 .form input[type="date"],
 .form input[type="password"],
 .form input[type="date"],
-.form input[type="tel"],
 .form textarea {
   font: 500 14px "Roboto", sans-serif;
   background: var(--cor-1);
-  border: 1px solid var(--cor-2);
+  border: none;
   padding: 12px;
   border-radius: 4px;
   width: 100%;
@@ -33,7 +32,6 @@
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
 .form input[type="password"]:focus,
-.form input[type="tel"]:focus,
 .form textarea:focus {
   outline: none;
   border-color: var(--cor-p1);

@@ -7,6 +7,7 @@ import Stack from '@mui/material/Stack';
 import MobileDateRangePicker from '@mui/lab/MobileDateRangePicker';
 import DesktopDateRangePicker from '@mui/lab/DesktopDateRangePicker';
 import {useWidth} from "../../../hooks/useWidth";
+import TextField from '@mui/material/TextField';
 
 export default function InputDate() {
     const [value, setValue] = React.useState([null, null]);
@@ -26,13 +27,13 @@ export default function InputDate() {
                         }}
                         renderInput={(startProps, endProps) => (
                             <>
-                                <input ref={startProps.inputRef} {...startProps.inputProps} />
-                                <input ref={endProps.inputRef} {...endProps.inputProps} />
+                                <TextField {...startProps} />
+                                <Box sx={{ mx: 1 }}/>
+                                <TextField {...endProps} />
                             </>
                         )}/>
                     :
                     <DesktopDateRangePicker
-                        toolbarTitle="select"
                         startText="Retirada"
                         endText="Devolução"
                         value={value}
@@ -42,8 +43,9 @@ export default function InputDate() {
                         }}
                         renderInput={(startProps, endProps) => (
                             <>
-                                <input ref={startProps.inputRef} {...startProps.inputProps} />
-                                <input ref={endProps.inputRef} {...endProps.inputProps} />
+                                <TextField {...startProps} />
+                                <Box sx={{ mx: 1 }}/>
+                                <TextField {...endProps} />
                             </>
                         )}
                     />
