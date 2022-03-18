@@ -4,6 +4,7 @@ import Populars from "./components/Populars";
 import TitleBgBlack from "./components/titles/TitleBgBlack";
 import Marca from "./components/Marca";
 import InputDate from "./components/forms/InputDate";
+import InputDateTime from "./components/forms/InputDateTime";
 
 function Home() {
     const title = {span: "Viaje com estilo", title: "faça já sua reserva"}
@@ -20,10 +21,9 @@ function Home() {
                     <div className="container">
                         <TitleBgBlack {...title}/>
                         <div className="form form-home">
-                            <InputDate/>
                             <input type="text" id="local" name="local" placeholder="Local"/>
-                            {/*<input type="date" id="retirada" name="retirada" placeholder="Retirada"/>*/}
-                            {/*<input type="date" id="devolucao" name="devolucao" placeholder="Devolucao"/>*/}
+                            <InputDateTime/>
+                            {/*<InputDate/>*/}
                             <input type="submit" className="botao" value="CONSULTAR"/>
                         </div>
 
