@@ -3,7 +3,7 @@
     {
       "id": "1",
       "category": "suvs",
-      "link": "/suvs",
+      "link": "produtos/suvs",
       "img": "./img/carros/suv-1.png",
       "localization": "Brasil",
       "description": "Carros maiores, ideias para a familia toda.",
@@ -12,7 +12,7 @@
     {
       "id": "2",
       "category": "conversiveis",
-      "link": "/conversiveis",
+      "link": "produtos/conversiveis",
       "img": "./img/carros/conversivel-1.png",
       "localization": "Brasil",
       "description": "Carros que prezam pelo conforto e luxo.",
@@ -21,7 +21,7 @@
     {
       "id": "3",
       "category": "picapes",
-      "link": "/picapes",
+      "link": "produtos/picapes",
       "img": "./img/carros/picape-1.png",
       "localization": "Brasil",
       "description": "Carros ideais para quem curte aventura.",
@@ -30,7 +30,7 @@
     {
       "id": "4",
       "category": "esportivos",
-      "link": "/esportivos",
+      "link": "produtos/esportivos",
       "img": "./img/carros/esportivo-1.png",
       "localization": "Brasil",
       "description": "Carros cheios de estilo, que garantem maior velocidade.",
