@@ -39,8 +39,12 @@ function Cabecalho() {
                                 <li><NavLink to="/categorias">Categorias</NavLink></li>
                                 <li><NavLink to="/reserva">Reserva</NavLink></li>
                                 <li><NavLink to="/contato">Contato</NavLink></li>
-                                <li><NavLink to="/login">Login</NavLink></li>
-                                <li><NavLink to="/cadastro">Cadastro</NavLink></li>
+                                <li className="botao-header">
+                                    <div>
+                                        <NavLink className="botao" to="/login">Login</NavLink>
+                                        <NavLink className="botao" to="/cadastro">Cadastro</NavLink>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                         <button id="btn-mobile" onClick={toggleMenu}>

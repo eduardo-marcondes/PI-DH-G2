@@ -8,7 +8,7 @@ import InputDateTime from "./components/forms/InputDateTime";
 import InputSelect from "./components/forms/InputSelect";
 
 function Home() {
-    const title = {span: "Viaje com estilo", title: "faça já sua reserva"}
+    const title = {span: "a melhor experiência de luxo de aluguel de carros", title: "faça já sua reserva"}
     return (
         <>
             <Helmet>
