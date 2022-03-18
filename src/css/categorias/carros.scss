@@ -1,9 +1,17 @@
 .carros-bg {
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-3) 0%);
+  display: flex;
+  justify-content: center;
 }
 
 .carros-white {
-  background: linear-gradient(to right, transparent 30%, var(--cor-0) 0%);
+  background: var(--cor-0);
+  display: flex;
+  justify-content: center;
+}
+
+.container-categorias{
+  padding-top: 3rem;
 }
 
 .carros {
@@ -11,6 +19,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 40px;
+  width: 70%;
 
   h2 {
     margin-bottom: 20px;
@@ -87,6 +96,7 @@
   .carros {
     grid-template-columns: 1fr;
     gap: 20px;
+    width: 100%;
   }
 }
 
