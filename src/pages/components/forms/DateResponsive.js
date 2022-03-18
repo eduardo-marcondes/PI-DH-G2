@@ -17,6 +17,7 @@ function DateResponsive() {
     }
 
     function onStartChange(value) {
+        setEndValue(null);
         setStartValue(value);
     }
 
