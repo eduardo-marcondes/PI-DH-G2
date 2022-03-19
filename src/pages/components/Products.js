@@ -11,7 +11,7 @@ const {TabPane} = Tabs;
 const categories = [
     {
         key: 'all',
-        title: 'Todos'
+        title: 'Nossa Frota'
     },
     {
         key: 'suvs',
