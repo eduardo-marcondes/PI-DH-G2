@@ -7,14 +7,14 @@ function Marca() {
             <div className="container">
                 <TitleBgWhite {...title}/>
                 <ul>
-                    <li><img src="./img/parceiros/audi.svg" alt="Audi"/></li>
-                    <li><img src="./img/parceiros/tesla.svg" alt="Tesla"/></li>
-                    <li><img src="./img/parceiros/bmw.svg" alt="BMW"/></li>
-                    <li><img src="./img/parceiros/dodge.svg" alt="Dodge"/></li>
-                    <li><img src="./img/parceiros/ford.svg" alt="Ford"/></li>
-                    <li><img src="./img/parceiros/gmc.svg" alt="GMC"/></li>
-                    <li><img src="./img/parceiros/jeep.svg" alt="Jeep"/></li>
-                    <li><img src="./img/parceiros/porsche.svg" alt="Porsche"/></li>
+                    <li><img src="/img/parceiros/audi.svg" alt="Audi"/></li>
+                    <li><img src="/img/parceiros/tesla.svg" alt="Tesla"/></li>
+                    <li><img src="/img/parceiros/bmw.svg" alt="BMW"/></li>
+                    <li><img src="/img/parceiros/dodge.svg" alt="Dodge"/></li>
+                    <li><img src="/img/parceiros/ford.svg" alt="Ford"/></li>
+                    <li><img src="/img/parceiros/gmc.svg" alt="GMC"/></li>
+                    <li><img src="/img/parceiros/jeep.svg" alt="Jeep"/></li>
+                    <li><img src="/img/parceiros/porsche.svg" alt="Porsche"/></li>
                 </ul>
             </div>
         </article>

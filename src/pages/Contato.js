@@ -59,7 +59,7 @@ function Contato() {
                     <div className="lojas">
                         <h2 className="font-h1">lojas locais<span className="cor-l1">.</span></h2>
                         <div className="lojas-item">
-                            <img src="./img/lojas/rj.jpg"
+                            <img src="/img/lojas/rj.jpg"
                                  alt="mapa marcando o endereço em Rua Ali Perto, 25 - Rio de Janeiro - RJ"/>
                             <div className="lojas-conteudo">
                                 <h3 className="font-h2">Rio de Janeiro</h3>
@@ -71,14 +71,14 @@ function Contato() {
                                     <a href="mailto:rj@digitalbooking.com">rj@digitalbooking.com</a>
                                     <a href="tel:+552199999999">+55 21 9999-9999</a>
                                 </div>
-                                <p className="lojas-tempo font-text-1"><img src="./img/icones/horario.svg" alt=""/>08-18h
+                                <p className="lojas-tempo font-text-1"><img src="/img/icones/horario.svg" alt=""/>08-18h
                                     de
                                     seg à dom</p>
                             </div>
                         </div>
 
                         <div className="lojas-item">
-                            <img src="./img/lojas/sp.jpg"
+                            <img src="/img/lojas/sp.jpg"
                                  alt="mapa marcando o endereço em Rua Ali Perto, 25 - São Paulo - SP"/>
                             <div className="lojas-conteudo">
                                 <h3 className="font-h2">São Paulo</h3>
@@ -90,7 +90,7 @@ function Contato() {
                                     <a href="mailto:sp@digitalbooking.com">sp@digitalbooking.com</a>
                                     <a href="tel:+551199999999">+55 11 9999-9999</a>
                                 </div>
-                                <p className="lojas-tempo font-text-1"><img src="./img/icones/horario.svg" alt=""/>08-18h
+                                <p className="lojas-tempo font-text-1"><img src="/img/icones/horario.svg" alt=""/>08-18h
                                     de
                                     seg à dom</p>
                             </div>

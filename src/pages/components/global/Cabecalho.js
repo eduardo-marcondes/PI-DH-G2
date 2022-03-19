@@ -32,7 +32,7 @@ function Cabecalho() {
                 }}>
                     <div className="header" id='hmenu'>
                         <Link to="/">
-                            <img src="./logo192.png" width="136" height="32" alt="Logotipo Digital Booking"/>
+                            <img src="/logo192.png" width="136" height="32" alt="Logotipo Digital Booking"/>
                         </Link>
                         <div className="header-menu">
                             <ul className="font-h4 cor-0">

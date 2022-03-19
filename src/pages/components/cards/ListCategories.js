@@ -28,11 +28,11 @@ function ListCategories() {
                                         <p className="font-text-1 cor-3">{categoriesItem.description}</p>
                                         <ul className="font-h4 cor-3">
                                             <li>
-                                                <img src="./img/icones/velocidade.svg" alt=""/>
+                                                <img src="/img/icones/velocidade.svg" alt=""/>
                                                 50 km/h
                                             </li>
                                             <li>
-                                                <img src="./img/icones/rastreador.svg" alt="Localização"/>
+                                                <img src="/img/icones/rastreador.svg" alt="Localização"/>
                                                 {categoriesItem.localization}
                                             </li>
                                         </ul>
@@ -52,11 +52,11 @@ function ListCategories() {
                                         <p className="font-text-1 cor-1">{categoriesItem.description}</p>
                                         <ul className="font-h4 cor-1">
                                             <li>
-                                                <img src="./img/icones/velocidade.svg" alt=""/>
+                                                <img src="/img/icones/velocidade.svg" alt=""/>
                                                 45 km/h
                                             </li>
                                             <li>
-                                                <img src="./img/icones/rastreador.svg" alt="Localização"/>
+                                                <img src="/img/icones/rastreador.svg" alt="Localização"/>
                                                 {categoriesItem.localization}
                                             </li>
                                         </ul>

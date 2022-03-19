@@ -31,46 +31,46 @@ function Reserva() {
                                     <label for="suv">SUVs <span>R$ 299.9</span></label>
                                     <div className="reserva-detalhes">
                                         <ul className="font-text-2 cor-3">
-                                            <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
-                                            <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
-                                            <li><img src="./img/icones/velocidade.svg" alt=""/> 50 km/h</li>
-                                            <li><img src="./img/icones/rastreador.svg" alt=""/> Rastreador</li>
+                                            <li><img src="/img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
+                                            <li><img src="/img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
+                                            <li><img src="/img/icones/velocidade.svg" alt=""/> 50 km/h</li>
+                                            <li><img src="/img/icones/rastreador.svg" alt=""/> Rastreador</li>
                                         </ul>
-                                        <img src="./img/carros/suv-1.jpg" alt="Modelo Suv"/>
+                                        <img src="/img/carros/suv-1.jpg" alt="Modelo Suv"/>
                                     </div>
 
                                     <input type="radio" name="produto" value="conversivel" id="conversivel"/>
                                     <label for="conversivel">Conversiveis<span>R$ 499.9</span></label>
                                     <div className="reserva-detalhes">
                                         <ul className="font-text-2 cor-3">
-                                            <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
-                                            <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
-                                            <li><img src="./img/icones/velocidade.svg" alt=""/> 45 km/h</li>
-                                            <li><img src="./img/icones/rastreador.svg" alt=""/> Rastreador</li>
+                                            <li><img src="/img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
+                                            <li><img src="/img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
+                                            <li><img src="/img/icones/velocidade.svg" alt=""/> 45 km/h</li>
+                                            <li><img src="/img/icones/rastreador.svg" alt=""/> Rastreador</li>
                                         </ul>
-                                        <img src="./img/carros/conversivel-1.jpg" alt="Modelo Conversivel"/>
+                                        <img src="/img/carros/conversivel-1.jpg" alt="Modelo Conversivel"/>
                                     </div>
 
                                     <input type="radio" name="produto" value="picape" id="picape"/>
                                     <label for="picape">Picapes <span>R$ 399.9</span></label>
                                     <div className="reserva-detalhes">
                                         <ul className="font-text-2 cor-3">
-                                            <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
-                                            <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
-                                            <li><img src="./img/icones/velocidade.svg" alt=""/> 40 km/h</li>
-                                            <li><img src="./img/icones/rastreador.svg" alt=""/> Rastreador</li>
+                                            <li><img src="/img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
+                                            <li><img src="/img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
+                                            <li><img src="/img/icones/velocidade.svg" alt=""/> 40 km/h</li>
+                                            <li><img src="/img/icones/rastreador.svg" alt=""/> Rastreador</li>
                                         </ul>
-                                        <img src="./img/carros/picape-1.jpg" alt="Modelo Picape"/>
+                                        <img src="/img/carros/picape-1.jpg" alt="Modelo Picape"/>
                                     </div>
 
                                     <input type="radio" name="produto" value="esportivo" id="esportivo"/>
                                     <label htmlFor="esportivo">Esportivos <span>R$ 399.9</span></label>
                                     <div className="reserva-detalhes">
                                         <ul className="font-text-2 cor-3">
-                                            <li><img src="./img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
-                                            <li><img src="./img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
-                                            <li><img src="./img/icones/velocidade.svg" alt=""/> 40 km/h</li>
-                                            <li><img src="./img/icones/rastreador.svg" alt=""/> Rastreador</li>
+                                            <li><img src="/img/icones/eletrica.svg" alt=""/> Motor Elétrico</li>
+                                            <li><img src="/img/icones/carbono.svg" alt=""/> Fibra de Carbono</li>
+                                            <li><img src="/img/icones/velocidade.svg" alt=""/> 40 km/h</li>
+                                            <li><img src="/img/icones/rastreador.svg" alt=""/> Rastreador</li>
                                         </ul>
                                         <img src="../img/carros/esportivo-1.jpg" alt="Modelo Esportivo"/>
                                     </div>

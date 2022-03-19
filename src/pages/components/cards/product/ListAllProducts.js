@@ -15,12 +15,12 @@ function ListAllProducts(props) {
                         <h3 className="font-h3 cor-0">{marca} {modelo}</h3>
                         <ul className="font-text-1 cor-1">
                             <li>
-                                <img src="./img/icones/rastreador.svg"
+                                <img src="/img/icones/rastreador.svg"
                                      alt="icon local"/>
                                 {localizacao}
                             </li>
                             <li>
-                                <img src="./img/icones/motor.png"
+                                <img src="/img/icones/motor.png"
                                      alt="icon car model"/>
                                 {categoria}
                             </li>

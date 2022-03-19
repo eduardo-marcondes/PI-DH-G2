@@ -24,11 +24,11 @@ function CardsAnimation() {
                                 <h3 className="font-h3 cor-0">{carItem.title}</h3>
                                 <ul className="font-text-1 cor-1">
                                     <li>
-                                        <img src="./img/icones/local.svg" alt="icon local"/>
+                                        <img src="/img/icones/local.svg" alt="icon local"/>
                                         {carItem.localization}
                                     </li>
                                     <li>
-                                        <img src="./img/icones/carro.png" alt="icon car model"/>
+                                        <img src="/img/icones/carro.png" alt="icon car model"/>
                                         {carItem.category}
                                     </li>
                                 </ul>

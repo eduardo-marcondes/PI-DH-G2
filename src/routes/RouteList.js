@@ -34,7 +34,7 @@ function RouteList() {
                         <Route path="esportivos" element={<Esportivos/>}/>
                         <Route path="picapes" element={<Picapes/>}/>
                         <Route path="cadastro" element={<Cadastro/>}/>
-                        <Route path="produtos" element={<Products/>}/>
+                        <Route path="produtos/:category" element={<Products/>}/>
                         {/* <Route path="*" element={<NoPage />} /> */}
                     </Routes>
                     <Rodape/>
