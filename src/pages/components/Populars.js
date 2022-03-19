@@ -1,9 +1,9 @@
 import TitleBgBlack from "./titles/TitleBgBlack";
-import CardsAnimation from "./cards/CardsAnimation";
 import CardsBlack from "./cards/CardsBlack";
+import React from "react";
 
 function Populars() {
-    const title = {span: "os mais alugados de nossa frota", title: "populares"}
+    const title = {span: "os mais alugados de nossa frota", title: "populares"};
     return (
         <>
             <article className="bg-black">
@@ -11,7 +11,6 @@ function Populars() {
                     <TitleBgBlack {...title}/>
                     <div className="mais-alugados">
                         <CardsBlack/>
-                        <CardsAnimation/>
                     </div>
                 </div>
             </article>
