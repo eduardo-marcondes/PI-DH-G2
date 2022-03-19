@@ -3,9 +3,14 @@ import {Helmet} from "react-helmet-async";
 import ListCategory from "../components/cards/ListCategory";
 import TitleBgBlack from "../components/titles/TitleBgBlack";
 import Vantagem from "../components/Vantagem";
+import 'antd/dist/antd.css';
+import { Image } from 'antd';
+import React from "react";
 
 function Conversiveis() {
     const title = {span: "R$ 499.90", title: "Conversiveis"};
+    const [visible, setVisible] = React.useState(false);
+
     return (
         <>
             <Helmet>
@@ -21,17 +26,21 @@ function Conversiveis() {
 
                             <div className="carro">
                                 <div className="carro-imagens">
+                                    <Image
+                                        preview={{ visible: false }}
+                                        onClick={() => setVisible(true)}
+                                        src="../img/carros/conversivel-1.jpg"
+                                    />
 
-                                    <img src="../img/carros/conversivel-1.jpg" alt=""/>
-
-
-                                    <img src="../img/carros/conversivel-2.jpg" alt=""/>
-                                    <img src="../img/carros/conversivel-3.jpg" alt=""/>
-
-
-                                    <img src="../img/carros/conversivel-2.jpg" alt=""/>
-                                    <img src="../img/carros/conversivel-3.jpg" alt=""/>
-
+                                    <div style={{ display: 'flex', gap: '10' }}>
+                                        <Image.PreviewGroup preview={{ visible, onVisibleChange: vis => setVisible(vis) }}>
+                                            <Image src="../img/carros/conversivel-1.jpg" style={{display: 'none'}}/>
+                                            <Image src="../img/carros/conversivel-2.jpg" />
+                                            <Image src="../img/carros/conversivel-3.jpg" />
+                                            <Image src="../img/carros/conversivel-2.jpg" />
+                                            <Image src="../img/carros/conversivel-3.jpg" />
+                                        </Image.PreviewGroup>
+                                    </div>
 
                                 </div>
                                 <div className="carro-conteudo">
