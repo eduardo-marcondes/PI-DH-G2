@@ -8,7 +8,8 @@
       "title": "BMW X5",
       "localization": "Brasil",
       "description": "Carros maiores, ideias para a familia toda.",
-      "value": "R$ 299.9"
+      "value": "R$ 299.9",
+      "link": "/produtos/frota_suv01"
     },
     {
       "id": "car_02",
@@ -18,7 +19,8 @@
       "title": "AUDI Q5",
       "localization": "Brasil",
       "description": "Carros maiores, ideias para a familia toda.",
-      "value": "R$ 299.9"
+      "value": "R$ 299.9",
+      "link": "/produtos/frota_suv02"
     },
     {
       "id": "car_03",
@@ -28,7 +30,8 @@
       "title": "BMW SERIE 4 CABRIO",
       "localization": "Brasil",
       "description": "Carros que prezam pelo conforto e luxo.",
-      "value": "R$ 499.9"
+      "value": "R$ 499.9",
+      "link": "/produtos/frota_conv01"
     },
     {
       "id": "car_04",
@@ -38,7 +41,8 @@
       "title": "AUDI TT ROADSTER",
       "localization": "Brasil",
       "description": "Carros que prezam pelo conforto e luxo.",
-      "value": "R$ 499.9"
+      "value": "R$ 499.9",
+      "link": "/produtos/frota_conv02"
     },
     {
       "id": "car_05",
@@ -48,7 +52,8 @@
       "title": "GMC SIERRA 1500 LIMITED DENALI",
       "localization": "Brasil",
       "description": "Carros ideais para quem curte aventura.",
-      "value": "R$ 399.9"
+      "value": "R$ 399.9",
+      "link": "/produtos/frota_pic03"
     },
     {
       "id": "car_06",
@@ -58,7 +63,8 @@
       "title": "Jeep Gladiator",
       "localization": "Brasil",
       "description": "Carros ideais para quem curte aventura.",
-      "value": "R$ 399.9"
+      "value": "R$ 399.9",
+      "link": "/produtos/frota_pic02"
     },
     {
       "id": "car_07",
@@ -68,7 +74,8 @@
       "title": "Ford GT",
       "localization": "Brasil",
       "description": "Carros cheios de estilo, que garantem maior velocidade.",
-      "value": "R$ 399.9"
+      "value": "R$ 399.9",
+      "link": "/produtos/frota_esp01"
     },
     {
       "id": "car_08",
@@ -78,7 +85,8 @@
       "title": "Audi R8 V10",
       "localization": "Brasil",
       "description": "Carros cheios de estilo, que garantem maior velocidade.",
-      "value": "R$ 399.9"
+      "value": "R$ 399.9",
+      "link": "/produtos/frota_esp03"
     }
   ]
 }

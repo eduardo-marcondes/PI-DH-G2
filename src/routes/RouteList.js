@@ -9,7 +9,7 @@ import Reserva from "../pages/Reserva";
 import Login from "../pages/Login";
 import Termos from "../pages/Termos";
 import Suvs from "../pages/carros/Suvs";
-import Conversiveis from "../pages/carros/Conversiveis";
+import CarDetails from "../pages/carros/CarDetails";
 import Esportivos from "../pages/carros/Esportivos";
 import Picapes from "../pages/carros/Picapes";
 import Cadastro from "../pages/Cadastro";
@@ -29,12 +29,9 @@ function RouteList() {
                         <Route path="reserva" element={<Reserva/>}/>
                         <Route path="login" element={<Login/>}/>
                         <Route path="termos" element={<Termos/>}/>
-                        <Route path="suvs" element={<Suvs/>}/>
-                        <Route path="conversiveis" element={<Conversiveis/>}/>
-                        <Route path="esportivos" element={<Esportivos/>}/>
-                        <Route path="picapes" element={<Picapes/>}/>
+                        <Route path="produtos/:id" element={<CarDetails/>}/>
                         <Route path="cadastro" element={<Cadastro/>}/>
-                        <Route path="produtos/:category" element={<Products/>}/>
+                        <Route path="categorias/:category" element={<Products/>}/>
                         {/* <Route path="*" element={<NoPage />} /> */}
                     </Routes>
                     <Rodape/>

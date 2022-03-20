@@ -38,8 +38,6 @@ function Products() {
 
     const title = {span: "conheça nossa frota", title: "frota"};
 
-    console.log(categoryResult);
-
     return (
         <>
             {!!isLoading ? 'Carregando...' : null}
@@ -47,10 +45,8 @@ function Products() {
             <section className="bg-black">
                 <div className="container">
                     <TitleBgBlack {...title}/>
-
-
                     <Tabs defaultActiveKey={category} onChange={(key) => {
-                        navigate(`/produtos/${key}`)
+                        navigate(`/categorias/${key}`)
                     }}>
                         {categories.map(item => {
                             return <TabPane
@@ -68,7 +64,6 @@ function Products() {
                         })}
                     </Tabs>
                 </div>
-
             </section>
 
             <Marca/>

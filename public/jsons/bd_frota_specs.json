@@ -19,7 +19,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros maiores, ideias para a familia toda.",
           "valor": "R$ 299.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_suv01"
         },
         {
           "id": "frota_suv02",
@@ -37,7 +37,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros maiores, ideias para a familia toda.",
           "valor": "R$ 299.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_suv02"
         },
         {
           "id": "frota_suv03",
@@ -55,7 +55,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros maiores, ideias para a familia toda.",
           "valor": "R$ 299.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_suv03"
         },
         {
           "id": "frota_suv04",
@@ -73,7 +73,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros maiores, ideias para a familia toda.",
           "valor": "R$ 299.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_suv04"
         }
       ]
     },
@@ -94,9 +94,9 @@
           "aceleracao": "6,2s",
           "combustivel": "gasolina",
           "localizacao": "Brasil",
-          "descricao": "Carros que prezam pelo conforto e luxo.",
+          "descricao": "Carros que prezam pelo conforto e luxo, para uma experiência na direção incomparável, e sensação de liberdade.",
           "valor": "R$ 499.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_conv01"
         },
         {
           "id": "frota_conv02",
@@ -112,9 +112,9 @@
           "aceleracao": "6,1s",
           "combustivel": "gasolina",
           "localizacao": "Brasil",
-          "descricao": "Carros que prezam pelo conforto e luxo.",
+          "descricao": "Carros que prezam pelo conforto e luxo, para uma experiência na direção incomparável, e sensação de liberdade.",
           "valor": "R$ 499.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_conv02"
         },
         {
           "id": "frota_conv03",
@@ -130,9 +130,9 @@
           "aceleracao": "3,7s",
           "combustivel": "gasolina",
           "localizacao": "Brasil",
-          "descricao": "Carros que prezam pelo conforto e luxo.",
+          "descricao": "Carros que prezam pelo conforto e luxo, para uma experiência na direção incomparável, e sensação de liberdade.",
           "valor": "R$ 499.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_conv03"
         },
         {
           "id": "frota_conv04",
@@ -148,9 +148,9 @@
           "aceleracao": "4,3s",
           "combustivel": "gasolina",
           "localizacao": "Brasil",
-          "descricao": "Carros que prezam pelo conforto e luxo.",
+          "descricao": "Carros que prezam pelo conforto e luxo, para uma experiência na direção incomparável, e sensação de liberdade.",
           "valor": "R$ 499.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_conv04"
         }
       ]
     },
@@ -173,7 +173,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros cheios de estilo, que garantem maior velocidade.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_esp01"
         },
         {
           "id": "frota_esp02",
@@ -191,7 +191,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros cheios de estilo, que garantem maior velocidade.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_esp02"
         },
         {
           "id": "frota_esp03",
@@ -209,7 +209,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros cheios de estilo, que garantem maior velocidade.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_esp03"
         },
         {
           "id": "frota_esp04",
@@ -227,7 +227,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros cheios de estilo, que garantem maior velocidade.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_esp04"
         }
       ]
     },
@@ -250,7 +250,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros ideais para quem curte aventura.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_pic01"
         },
         {
           "id": "frota_pic02",
@@ -268,7 +268,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros ideais para quem curte aventura.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_pic02"
         },
         {
           "id": "frota_pic03",
@@ -286,7 +286,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros ideais para quem curte aventura.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_pic03"
         },
         {
           "id": "frota_pic04",
@@ -304,7 +304,7 @@
           "localizacao": "Brasil",
           "descricao": "Carros ideais para quem curte aventura.",
           "valor": "R$ 399.9",
-          "link": "/rafaela"
+          "link": "/produtos/frota_pic04"
         }
       ]
     }

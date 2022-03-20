@@ -2,19 +2,17 @@ import React from "react";
 
 export const useApis = (url) => {
     const [result, setResult] = React.useState(null);
-    const [isLoading, setLoading] = React.useState(false);
+    const [isLoading, setLoading] = React.useState(true);
 
     React.useEffect(() => {
-        setLoading(true);
-
         fetch(url, {
             headers: {
                 Accept: "application/json"
             }
         }).then(res => res.json())
             .then(res => {
-                setLoading(false);
                 setResult(res);
+                setLoading(false);
             })
     }, []);
 

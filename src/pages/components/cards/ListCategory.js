@@ -3,7 +3,7 @@ import {useApis} from '../../../hooks/useApi';
 import {Link} from "react-router-dom";
 
 function ListCategory() {
-    const [categoriesResult, isLoading] = useApis('./jsons/categoria.json');
+    const [categoriesResult, isLoading] = useApis('/jsons/categoria.json');
 
     //resultado pode ser nulo ou vazio ate carregar
     const categories = categoriesResult?.categories || [];

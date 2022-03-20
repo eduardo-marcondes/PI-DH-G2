@@ -6,7 +6,7 @@ import {useApis} from "../../../hooks/useApi";
 const {Option} = Select;
 
 function InputSelect() {
-    const [addressResult, isLoading] = useApis('./jsons/address.json');
+    const [addressResult, isLoading] = useApis('/jsons/address.json');
 
     //resultado pode ser nulo ou vazio ate carregar
     const address = addressResult?.addressList || [];

@@ -3,7 +3,7 @@ import {useApis} from '../../../hooks/useApi';
 import {Link} from "react-router-dom";
 
 function CardsBlack() {
-    const [carsResult, isLoading] = useApis('./jsons/popular.json');
+    const [carsResult, isLoading] = useApis('/jsons/popular.json');
 
     //resultado pode ser nulo ou vazio ate carregar
     const cars = carsResult?.carsList || [];
@@ -34,7 +34,7 @@ function CardsBlack() {
                                     </ul>
                                     <p className="font-text-1 cor-1">{carItem.description}</p>
                                 </div>
-                                <Link className="botao" to="/">Mais Sobre</Link>
+                                <Link className="botao" to={carItem.link}>Mais Sobre</Link>
                             </div>
                         </div>
                     </React.Fragment>
