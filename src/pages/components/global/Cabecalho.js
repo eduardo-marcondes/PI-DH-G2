@@ -1,5 +1,5 @@
-import {Outlet, Link, NavLink} from "react-router-dom";
-import React, {useState, useEffect} from "react";
+import { Outlet, Link, NavLink } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 function Cabecalho() {
     const [navSize, setnavSize] = useState("10rem");
@@ -28,25 +28,22 @@ function Cabecalho() {
                 <nav id="nav" style={{
                     backgroundColor: navColor,
                     height: navSize,
-                    transition: "all 1s"
+                    transition: "all .5s"
                 }}>
                     <div className="header" id='hmenu'>
                         <Link to="/">
-                            <img src="/logo192.png" width="136" height="32" alt="Logotipo Digital Booking"/>
+                            <img src="/logo192.png" width="200" alt="Logotipo Digital Booking" />
                         </Link>
-                        <div className="header-menu">
-                            <ul className="font-h4 cor-0">
-                                <li><NavLink to="/categorias">Categorias</NavLink></li>
-                                <li><NavLink to="/reserva">Reserva</NavLink></li>
-                                <li><NavLink to="/contato">Contato</NavLink></li>
-                                <li className="botao-header">
-                                    <div>
-                                        <NavLink className="botao" to="/login">Login</NavLink>
-                                        <NavLink className="botao" to="/cadastro">Cadastro</NavLink>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+
+                        <ul className="header-menu font-h4 cor-0">
+                            <li className="menu-item"><NavLink to="/categorias">Categorias</NavLink></li>
+                            <li className="menu-item"><NavLink to="/reserva">Reserva</NavLink></li>
+                            <li className="menu-item"><NavLink to="/contato">Contato</NavLink></li>
+                            <li className="menu-item"><NavLink to="/login">Login</NavLink></li>
+                            <li className="menu-item"><NavLink  to="/cadastro">Cadastro</NavLink></li>
+
+                        </ul>
+
                         <button id="btn-mobile" onClick={toggleMenu}>
                             <p>Menu</p>
                             <span id="hamburger"></span>
@@ -58,7 +55,7 @@ function Cabecalho() {
             {/* An <Outlet> renders whatever child route is currently active,
           so you can think about this <Outlet> as a placeholder for
           the child routes we defined above. */}
-            <Outlet/>
+            <Outlet />
         </>
     )
 }
