@@ -28,7 +28,7 @@ function CardsBlack() {
                                             {carItem.localization}
                                         </li>
                                         <li>
-                                            <img src="/img/icones/motor.png" alt="icon car model"/>
+                                            <img src="/img/icones/carro.png" alt="icon car model"/>
                                             {carItem.category}
                                         </li>
                                     </ul>

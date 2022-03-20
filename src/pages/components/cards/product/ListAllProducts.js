@@ -20,7 +20,7 @@ function ListAllProducts(props) {
                                 {localizacao}
                             </li>
                             <li>
-                                <img src="/img/icones/motor.png"
+                                <img src="/img/icones/carro.png"
                                      alt="icon car model"/>
                                 {categoria}
                             </li>
