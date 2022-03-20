@@ -7,6 +7,8 @@ import 'antd/dist/antd.css';
 import {Image} from 'antd';
 import React from "react";
 import {useSpecificCar} from "../../hooks/useSpecificCar";
+import InputReservation from '../components/forms/InputReservation'; 
+import Reservation from '../components/Reservation';
 
 function CarDetails() {
 
@@ -21,7 +23,7 @@ function CarDetails() {
     return (
         <>
             <Helmet>
-                <title>DB | Categoria > Conversiveis</title>
+                <title>DB | Categoria {/* > */}  &gt; Carro</title>
             </Helmet>
 
             <main>
@@ -118,6 +120,10 @@ function CarDetails() {
                         </div>
                     </div>
                 </section>
+
+                {/* Bloco de Reserva aqui */}
+
+                <Reservation/>
 
                 <article className="carros-lista">
                     <div className="container">
