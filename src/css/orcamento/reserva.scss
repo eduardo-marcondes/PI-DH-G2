@@ -25,10 +25,12 @@
     padding: 50px 64px;
     max-height: 60vh;
     background-color: var(--cor-1);
+    box-sizing: border-box;
 
-    /* .reserve-cal{
-        width: 100%;
-    } */
+    .reserve-cal{
+        display: grid;
+        gap: 20px;
+    }
 
     .reserve-btn{
         display: flex;
